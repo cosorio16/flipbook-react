@@ -1,0 +1,84 @@
+.view_container_product {
+  width: calc(100% - 510px);
+  height: 70%;
+  position: absolute;
+  top: calc(12%);
+  left: calc(50% - 350px);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.211);
+}
+
+.imgProduct_nameTools {
+  display: flex;
+  height: 100%;
+  padding: 5px;
+  gap: 15px;
+  align-items: center;
+}
+
+.image_of_product_view {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.nameToolsProduct {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.amount_view_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.amount_view_container button {
+  background: none;
+  border: none;
+}
+
+.amount_view_container button:first-child {
+  color: green;
+}
+
+.amount_view_container button:last-child {
+  color: red;
+}
+
+.amount_view_container input {
+  width: 100px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.close_button_view {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.close_button_view svg {
+  color: red;
+}
+
+.add_to_cart {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+}

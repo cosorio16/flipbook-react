@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Maven+Pro:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+button {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 1000;
+}
+
+p,
+span {
+  font-family: "Maven Pro", sans-serif;
+}

@@ -1,0 +1,118 @@
+.cart_button {
+  background: none;
+  border: none;
+}
+
+.cart_status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid red;
+  padding: 2px;
+}
+
+.cart_status p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.cart_products_container {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 60px;
+  right: calc(0%);
+  z-index: 2;
+  width: 700px;
+  height: 600px;
+  max-height: 90vh;
+  overflow-y: scroll;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.462);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product_card_header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: -11px 11px 22px #d9d9d9, 11px -11px 22px #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.delete_button,
+.edit_button {
+  width: 40px;
+  height: 40px;
+
+  letter-spacing: 0.5px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  border: none;
+  transition: all 250ms;
+  cursor: pointer;
+}
+
+.edit_button {
+  margin-left: 10px;
+}
+
+.edit_button:hover {
+  color: #ffffff;
+  background-color: rgb(0, 255, 64);
+  font-weight: 1000;
+  transition: background-color 0.3s ease-in-out, color 0.5s ease;
+  border-radius: 50%;
+}
+
+.delete_button:hover {
+  color: #ffffff;
+  background-color: red;
+  font-weight: 1000;
+  transition: background-color 0.3s ease-in-out, color 0.5s ease;
+  border-radius: 50%;
+}
+
+.tipo_header,
+.option_header,
+.cantidad_header,
+.code_header {
+  display: flex;
+}
+
+.charact_item {
+  width: 100px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.product_card_header p {
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.empty_message {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.463);
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.img_product_cart {
+  width: 300px;
+  height: 250px;
+  min-width: 300px;
+  min-height: 250px;
+  max-width: 300px;
+  max-height: 250px;
+}
