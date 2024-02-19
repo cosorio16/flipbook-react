@@ -20,6 +20,15 @@
   position: relative;
 }
 
+.loading_indicator_main {
+  grid-area: 2/2/3/2;
+  position: relative;
+  place-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .buttons_direction_page {
   width: 100%;
   display: flex;
@@ -33,4 +42,12 @@
 .buttons_direction_page button {
   background: none;
   border: none;
+}
+
+.page_indicator {
+  position: absolute;
+  bottom: 40px;
+  font-weight: 1000;
+  color: rgba(0, 0, 0, 0.492);
+  letter-spacing: 0.5px;
 }

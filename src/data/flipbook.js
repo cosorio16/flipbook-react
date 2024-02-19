@@ -1144,37 +1144,1370 @@ const catalogo = [
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_015.webp?alt=media&token=a22b27d0-bf16-4a2b-ad6e-507de69600e1",
-    products: [],
+    products: [
+      {
+        name: "BOMBILLOS",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led E27 Mini Torpedo",
+            options: [
+              {
+                code: "108173",
+                UE: "1/50",
+                value: "5W - 550lm - 6500k/b - 32x6,9mm",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108173-108174.webp?alt=media&token=a19de32f-ca68-4cec-852b-aebdde9a5cfe",
+              },
+              {
+                code: "108172",
+                UE: "1/50",
+                value: "5W - 550lm - 3000k/b - 32x6,9mm",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F48298%20%20107246%20%20108172%20%20108171.webp?alt=media&token=6d255d56-1acf-46ad-8607-a02117dfb57e",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 TORPEDO",
+            options: [
+              {
+                code: "108171",
+                value: "8W - 950lm - 3000k/c - 38x12mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F48298%20%20107246%20%20108172%20%20108171.webp?alt=media&token=6d255d56-1acf-46ad-8607-a02117dfb57e",
+              },
+              {
+                code: "108172",
+                value: "8W - 950lm - 4000k/n - 38x12mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F48298%20%20107246%20%20108172%20%20108171.webp?alt=media&token=6d255d56-1acf-46ad-8607-a02117dfb57e",
+              },
+              {
+                code: "48298",
+                value: "8W - 950lm - 6500k/c - 38x12mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F48298%20%20107246%20%20108172%20%20108171.webp?alt=media&token=6d255d56-1acf-46ad-8607-a02117dfb57e",
+              },
+              {
+                code: "107246",
+                value: "12W - 1300lm - 6500k/b - 44x14mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F48298%20%20107246%20%20108172%20%20108171.webp?alt=media&token=6d255d56-1acf-46ad-8607-a02117dfb57e",
+              },
+              {
+                code: "107670",
+                value: "15W - 1600lm - 6500k/b - 50x17mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F107670.webp?alt=media&token=023eec4e-bdd0-4812-9898-3b135ed7f3bd",
+              },
+              {
+                code: "108177",
+                value: "16W - 1840lm - 3000k/c - 45x176mm",
+                UE: "1/150",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108177%20%20108178%20%20108179.webp?alt=media&token=ee4acea2-b166-4a5b-b7a5-f0c17253220a",
+              },
+              {
+                code: "108178",
+                value: "16W - 1840lm - 4000k/n - 45x176mm",
+                UE: "1/150",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108177%20%20108178%20%20108179.webp?alt=media&token=ee4acea2-b166-4a5b-b7a5-f0c17253220a",
+              },
+              {
+                code: "108179",
+                value: "16W - 1840lm - 6500k/b - 45x176mm",
+                UE: "1/150",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108177%20%20108178%20%20108179.webp?alt=media&token=ee4acea2-b166-4a5b-b7a5-f0c17253220a",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 Globo",
+            options: [
+              {
+                code: "107965",
+                value: "9W - 920lm - 6500k/b - 80x125mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fbombillo_led%2F107965-107966-107967-Bombillo-globo.webp?alt=media&token=1421d838-a74a-4854-a339-6ae50e4f050a",
+              },
+              {
+                code: "107966",
+                value: "12W - 1200lm - 6500k/b - 80x125mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fbombillo_led%2F107965-107966-107967-Bombillo-globo.webp?alt=media&token=1421d838-a74a-4854-a339-6ae50e4f050a",
+              },
+              {
+                code: "107967",
+                value: "15W - 1495lm - 6500k/b - 80x125mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fbombillo_led%2F107965-107966-107967-Bombillo-globo.webp?alt=media&token=1421d838-a74a-4854-a339-6ae50e4f050a",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led GU10",
+            options: [
+              {
+                code: "43714",
+                value: "5W - 550lm - 6500k/b - 48x56mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43714-43715-107755-107756%20Bombillo%20led.webp?alt=media&token=ff197698-2195-48ec-82bd-bc515e523f68",
+              },
+              {
+                code: "108938",
+                value: "5W - 550lm - 4000k/n - 48x56mm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "43715",
+                value: "5W - 550lm - 3000k/c - 48x56mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43714-43715-107755-107756%20Bombillo%20led.webp?alt=media&token=ff197698-2195-48ec-82bd-bc515e523f68",
+              },
+              {
+                code: "107755",
+                value: "7W - 650lm - 6500k/c - 48x56mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43714-43715-107755-107756%20Bombillo%20led.webp?alt=media&token=ff197698-2195-48ec-82bd-bc515e523f68",
+              },
+              {
+                code: "108939",
+                value: "7W - 650lm - 4000k/c - 48x56mm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "107756",
+                value: "7W - 650lm - 3000k/c - 48x56mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43714-43715-107755-107756%20Bombillo%20led.webp?alt=media&token=ff197698-2195-48ec-82bd-bc515e523f68",
+              },
+            ],
+          },
+          {
+            name: "BOMBILLO LED E27 G45",
+            options: [
+              {
+                code: "101971",
+                value: "3W - 300lm - 6500k/b - 45x83mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43023-107971%20Bombillo%20led%20g45.webp?alt=media&token=077a7733-3a30-4875-8c7e-61535bdd41be",
+              },
+              {
+                code: "43023",
+                value: "5W - 560lm - 6500k/b - 45x83mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F43023-107971%20Bombillo%20led%20g45.webp?alt=media&token=077a7733-3a30-4875-8c7e-61535bdd41be",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E14 C37 Vela",
+            options: [
+              {
+                code: "43716",
+                value: "5W - 600lm - 6500k/b - 37x100mm - E14",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "107666",
+                value: "5W - 550lm - 6500k/b - 37x100mm - E14",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107666%20Bomb%20vela%20e27.webp?alt=media&token=dbb8f36d-417b-42fa-b985-9b45dd37ef97",
+              },
+              {
+                code: "107972",
+                value: "8W - 800lm - 4000k/n - 48x56mm - E27",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107972%20Bombillo%20Vela.webp?alt=media&token=103a5a4a-a54b-4fdb-9175-6b73e3e3c844",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_016.webp?alt=media&token=5a94863c-5d97-4884-883a-f09fefb054d6",
-    products: [],
+    products: [
+      {
+        name: "Bombillos",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led E27 Campana",
+            options: [
+              {
+                code: "107974",
+                value: "9W - 920lm - 6500k/b - 63x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107974%20Bombillo%20campana.webp?alt=media&token=c4771483-90d3-43b0-a13a-4001f2d9eebc",
+              },
+              {
+                code: "107975",
+                value: "12W - 1200lm - 6500k/b - 63x115mm",
+                UE: "1/100",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 A55",
+            options: [
+              {
+                code: "67709",
+                value: "7W - 780lm - 6500k/b - 60x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F67709-67710-44511-44512%20bombillo%20led.webp?alt=media&token=d00a35ac-f716-42c7-bd5f-520341980321",
+              },
+              {
+                code: "107973",
+                value: "8W - 810lm - 6500k/b - 55x112mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107973%20Bombillo%20slim.webp?alt=media&token=7db76a10-6805-426f-9e7e-16ac442950dc",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 A60",
+            options: [
+              {
+                code: "67710",
+                value: "9W - 980lm - 6500k/b - 60x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F67709-67710-44511-44512%20bombillo%20led.webp?alt=media&token=d00a35ac-f716-42c7-bd5f-520341980321",
+              },
+              {
+                code: "44511",
+                value: "12W - 1300lm - 6500k/b - 60x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FfullWat_2022%2F44511-44512-67709.webp?alt=media&token=f19f3bc8-54a0-4ebb-8f15-91caf07a06f5",
+              },
+              {
+                code: "44512",
+                value: "15W - 1650lm - 6500k/b - 60x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FfullWat_2022%2F44511-44512-67709.webp?alt=media&token=f19f3bc8-54a0-4ebb-8f15-91caf07a06f5",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 A80",
+            options: [
+              {
+                code: "107671",
+                value: "18W - 1900lm - 6500k/b - 81x153mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107671%20Bombillo%20led%2018W.webp?alt=media&token=ba6c902a-2a99-42e4-8f66-1508fd2b3e60",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led 12 Voltios",
+            options: [
+              {
+                code: "108940",
+                value: "5W - 500lm - 6500k/b - 45x83mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108940-108941-108493-108944%2012DVC.webp?alt=media&token=874b844e-e57c-40f3-a05f-9b2a22c06c9e",
+              },
+              {
+                code: "108941",
+                value: "8W - 850lm - 6500k/b - 55x112mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108940-108941-108493-108944%2012DVC.webp?alt=media&token=874b844e-e57c-40f3-a05f-9b2a22c06c9e",
+              },
+              {
+                code: "108942",
+                value: "10W - 980lm - 6500k/b - 60x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108940-108941-108493-108944%2012DVC.webp?alt=media&token=874b844e-e57c-40f3-a05f-9b2a22c06c9e",
+              },
+              {
+                code: "108943",
+                value: "14W - 1400lm - 6500k/b - 70x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108940-108941-108493-108944%2012DVC.webp?alt=media&token=874b844e-e57c-40f3-a05f-9b2a22c06c9e",
+              },
+              {
+                code: "108944",
+                value: "18W - 1650lm - 6500k/b - 80x153mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108940-108941-108493-108944%2012DVC.webp?alt=media&token=874b844e-e57c-40f3-a05f-9b2a22c06c9e",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 UFO",
+            options: [
+              {
+                code: "108089",
+                value: "15W - 1300lm - 6500k/b - 125x75mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108089%20(ufo).webp?alt=media&token=bd17a23a-441b-4a4b-9383-6d607383babb",
+              },
+              {
+                code: "108090",
+                value: "20W - 1650lm - 6500k/b - 150x81mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108089%20(ufo).webp?alt=media&token=bd17a23a-441b-4a4b-9383-6d607383babb",
+              },
+              {
+                code: "44513",
+                value: "24W - 2320lm - 6500k/b - 200x95mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F44513%20bombillo%20led%20ufo.webp?alt=media&token=02f4babb-583d-4967-9f11-7a21168fcf5b",
+              },
+              {
+                code: "108091",
+                value: "30W - 2500lm - 6500k/b - 200x95mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108092%20super%20ufo.webp?alt=media&token=0293ff77-97cb-4725-96f1-386557ba11bb",
+              },
+              {
+                code: "108092",
+                value: "35W - 2900lm - 6500k/b - 300x70mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108092%20super%20ufo.webp?alt=media&token=0293ff77-97cb-4725-96f1-386557ba11bb",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 Recargable",
+            options: [
+              {
+                code: "108870",
+                value: "8W - 810lm - 6500k/b - 70x150mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108870%20%20108869%20108868.webp?alt=media&token=eeb59bde-4ba8-4ef9-94a1-aa1d33967ea5",
+              },
+              {
+                code: "108869",
+                value: "10W - 950lm - 6500k/b - 70x160mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108870%20%20108869%20108868.webp?alt=media&token=eeb59bde-4ba8-4ef9-94a1-aa1d33967ea5",
+              },
+              {
+                code: "108868",
+                value: "12W - 1250lm - 6500k/b - 80x170mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108870%20%20108869%20108868.webp?alt=media&token=eeb59bde-4ba8-4ef9-94a1-aa1d33967ea5",
+              },
+              {
+                code: "108715",
+                value: "20W - 2200lm - 6500k/b - 100x185mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108715%20%20108114.webp?alt=media&token=4fd7afd1-3b81-400f-a269-8589d05e385b",
+              },
+              {
+                code: "108714",
+                value: "30W - 3100lm - 6500k/b - 120x210mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108715%20%20108114.webp?alt=media&token=4fd7afd1-3b81-400f-a269-8589d05e385b",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 T",
+            options: [
+              {
+                code: "107667",
+                value: "11W - 1230lm - 6500k/b - 60x118mm - T60",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107667-107668%20bombillo%2011w.webp?alt=media&token=cf285198-b77c-42ea-9ffe-b4d3cc7d1a1d",
+              },
+              {
+                code: "107668",
+                value: "16W - 1650lm - 6500k/b - 70mm - T70",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107668%20Bomb%20T70%2016W.webp?alt=media&token=f2ee41e6-aa06-4004-96f4-de8f36b55f8e",
+              },
+              {
+                code: "44514",
+                value: "20W - 2500lm - 6500k/b - 80x132mm - T180",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F44514%20bombillo%20led%20.webp?alt=media&token=c8377572-113d-42cb-8645-f00d2f9b459c",
+              },
+              {
+                code: "107669",
+                value: "24W - 1900lm - 6500k/b - 80x132mm - T100",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F107669.webp?alt=media&token=4ce0a0f8-2aa7-45ca-8f47-ca4aee5613c7",
+              },
+              {
+                code: "44515",
+                value: "30W - 3400lm - 6500k/b - 100x162mm - T100",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F107669-44515.webp?alt=media&token=f69da97f-7721-4a4d-b45e-f28c50dd6ae4",
+              },
+              {
+                code: "44516",
+                value: "40W - 4600lm - 6500k/b - 120x183mm - T120",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F44516-44517%20bombillo%20led.webp?alt=media&token=9103646e-b59c-4680-8c75-fbdfdc6348cb",
+              },
+              {
+                code: "44517",
+                value: "50W - 5100lm - 6500k/b - 140x206mm - T140",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F44516-44517%20bombillo%20led.webp?alt=media&token=9103646e-b59c-4680-8c75-fbdfdc6348cb",
+              },
+              {
+                code: "107968",
+                value: "60W - 5700lm - 6500k/b - 160x262mm - T160",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107968-Bombillo-60W.webp?alt=media&token=cbb5166c-ae1e-4c03-a17b-b817f4fd7135",
+              },
+              {
+                code: "107969",
+                value: "70W - 6500lm - 6500k/b - 140x242mm - T140X",
+                UE: "1/8",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FBOMBILLO_ALTA_BAJ_POT%2F107969%20Bombillo%2070w.webp?alt=media&token=31333007-1c33-4301-b740-7dffa3970b72",
+              },
+              {
+                code: "107970",
+                value: "80W - 7350lm - 6500k/b - 160x267mm - T140XL",
+                UE: "1/8",
+                img: "",
+              },
+              {
+                code: "108937",
+                value: "100W - 11000lm - 6500k/b - 160x275mm - T160X",
+                UE: "1/8",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108937%20T160%2080W%20100W.webp?alt=media&token=db360fad-1664-40f7-9630-9f04179467f8",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_017.webp?alt=media&token=1ad7184b-dcb1-4aeb-a2f2-145c2b424cc9",
-    products: [],
+    products: [
+      {
+        name: "Bombillos",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led E14 Electrodomesticos",
+            options: [
+              {
+                code: "108175",
+                value: "5W - 480lm - 6500k/b - 18x70mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108175%20electrodomesticos.webp?alt=media&token=0d70775c-4115-4e7d-9d25-51fd232a49a9",
+              },
+              {
+                code: "108671",
+                value: "5W - 480lm - 3000k/c - 18x70mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108175%20electrodomesticos.webp?alt=media&token=0d70775c-4115-4e7d-9d25-51fd232a49a9",
+              },
+              {
+                code: "108194",
+                value: "6,5W - 550lm - 6500k/b - 18x70mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108175%20electrodomesticos.webp?alt=media&token=0d70775c-4115-4e7d-9d25-51fd232a49a9",
+              },
+              {
+                code: "108671",
+                value: "6,5W - 580lm - 4000k/n - 18x70mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108175%20electrodomesticos.webp?alt=media&token=0d70775c-4115-4e7d-9d25-51fd232a49a9",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E14 MicroHondas",
+            options: [
+              {
+                code: "108176",
+                value: "3.5W - 350lm - 6500k/b - 17x62mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108176.webp?alt=media&token=8f337ecf-ebce-47bb-b209-6a77520e735a",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Nevera",
+            options: [
+              {
+                code: "108093",
+                value: "2.5W - 180lm - 6500k/b - 17x62mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108093.webp?alt=media&token=a7162dec-a071-42e8-b67a-b1b67ab03d29",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Vela Ambar",
+            options: [
+              {
+                code: "108148",
+                value: "5W - 500lm - 2200k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20AMBER%20108148.webp?alt=media&token=495c21f2-10ef-41ed-8d68-107f085f96c3",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Vela",
+            options: [
+              {
+                code: "108151",
+                value: "5W - 500lm - 5000k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20CLEAR%20E27%2010849%20%20108150%20%20108151.webp?alt=media&token=90b09d74-1885-4934-bdb1-297e370931c9",
+              },
+              {
+                code: "108150",
+                value: "5W - 500lm - 4000k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20CLEAR%20E27%2010849%20%20108150%20%20108151.webp?alt=media&token=90b09d74-1885-4934-bdb1-297e370931c9",
+              },
+              {
+                code: "108149",
+                value: "5W - 500lm - 3000k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20CLEAR%20E27%2010849%20%20108150%20%20108151.webp?alt=media&token=90b09d74-1885-4934-bdb1-297e370931c9",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E14 Vela",
+            options: [
+              {
+                code: "108152",
+                value: "5W - 500lm - 4000k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20CLEAR%20E14%20108152%20%20108153.webp?alt=media&token=f3ef0d16-f172-43b0-aa34-a14726dfae15",
+              },
+              {
+                code: "108153",
+                value: "5W - 500lm - 3000k/c - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFilament%20CANDLE%20CLEAR%20E14%20108152%20%20108153.webp?alt=media&token=f3ef0d16-f172-43b0-aa34-a14726dfae15",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 G45",
+            options: [
+              {
+                code: "108158",
+                value: "4W - 400lm - 4000k/n - 60x102mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108158.webp?alt=media&token=d91a70ea-ddd6-4191-8333-e875a0b74268",
+              },
+              {
+                code: "44608",
+                value: "4W - 400lm - 3000k/c - 60x102mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108158.webp?alt=media&token=d91a70ea-ddd6-4191-8333-e875a0b74268",
+              },
+              {
+                code: "108157",
+                value: "4W - 400lm - 2200k/c - 60x102mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108158.webp?alt=media&token=d91a70ea-ddd6-4191-8333-e875a0b74268",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento G80 Vidrio Spiral",
+            options: [
+              {
+                code: "108168",
+                value: "5W - 500lm - 3000k/c - 80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108168.webp?alt=media&token=7030e488-df39-4ab9-ae85-eaa08dde39e3",
+              },
+              {
+                code: "108169",
+                value: "5W - 500lm - 3000k/c - 80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108168.webp?alt=media&token=7030e488-df39-4ab9-ae85-eaa08dde39e3",
+              },
+              {
+                code: "108144",
+                value: "5W - 900lm - 3000k/c - 80mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108168.webp?alt=media&token=7030e488-df39-4ab9-ae85-eaa08dde39e3",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_018.webp?alt=media&token=a1af8131-c9a6-47ee-8ca8-c1889671d5e5",
-    products: [],
+    products: [
+      {
+        name: "Bombillos",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led Filamento G95",
+            options: [
+              {
+                code: "108145",
+                value: "8W - 900lm - 3000k/c - 95mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FFOTO%20G95%20108145.webp?alt=media&token=a2a1e531-574c-4edb-9dfc-b9de0e497193",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento G100",
+            options: [
+              {
+                code: "108146",
+                value: "8W - 900lm - 3000k/c - 100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108146.webp?alt=media&token=f9afc095-d379-4a00-afd0-3517f3793f44",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27",
+            options: [
+              {
+                code: "44615",
+                value: "5W - 500lm - 3000k/c - 80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44615%20-%20IM%C3%81GEN.webp?alt=media&token=5207732a-bf32-43c9-a479-3a7857d27c20",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Rasberry",
+            options: [
+              {
+                code: "108137",
+                value: "5W - 250lm - 3000k/c - 45x89mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108137.webp?alt=media&token=3e973c37-bec3-4198-841a-8bb50c34d63b",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento A60",
+            options: [
+              {
+                code: "108156",
+                value: "5W - 500lm - 2200k/c - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44614%20-%20IM%C3%81GEN.webp?alt=media&token=e08958b6-c949-40da-ab6c-b1a4d292d1fc",
+              },
+              {
+                code: "44614",
+                value: "5W - 500lm - 3000k/c - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44614%20-%20IM%C3%81GEN.webp?alt=media&token=e08958b6-c949-40da-ab6c-b1a4d292d1fc",
+              },
+              {
+                code: "108187",
+                value: "5W - 500lm - 5000k/b - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44614%20-%20IM%C3%81GEN.webp?alt=media&token=e08958b6-c949-40da-ab6c-b1a4d292d1fc",
+              },
+              {
+                code: "108193",
+                value: "5W - 500lm - 6500k/b - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44614%20-%20IM%C3%81GEN.webp?alt=media&token=e08958b6-c949-40da-ab6c-b1a4d292d1fc",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento A60 Spiral Ambar",
+            options: [
+              {
+                code: "108155",
+                value: "3W - 150lm - 3000k/c - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108155-02.webp?alt=media&token=9c3253b9-1bdd-4bfc-97a6-668ce3f1049e",
+              },
+            ],
+          },
+          {
+            name: "Bombillo led Filamento Torpedo",
+            options: [
+              {
+                code: "108138",
+                value: "5W - 500lm - 3000k/c - 13cm - T10/TRANS",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108138.webp?alt=media&token=552aa5f8-c2aa-4061-b2ae-489e82e4d289",
+              },
+              {
+                code: "108139",
+                value: "5W - 500lm - 2200k/c - 13cm - T10/AMBAR",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108138.webp?alt=media&token=552aa5f8-c2aa-4061-b2ae-489e82e4d289",
+              },
+              {
+                code: "108141",
+                value: "5W - 250lm - 3000k/c - 15cm - T10/TRANS",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108138.webp?alt=media&token=552aa5f8-c2aa-4061-b2ae-489e82e4d289",
+              },
+              {
+                code: "108140",
+                value: "5W - 250lm - 2200k/c - 15cm - T10/AMBAR",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108138.webp?alt=media&token=552aa5f8-c2aa-4061-b2ae-489e82e4d289",
+              },
+              {
+                code: "108147",
+                value: "5W - 500lm - 3000k/c - 11cm - T14/TRANS",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108147.webp?alt=media&token=3a9ac17f-0406-4b54-a15f-e42d5307f276",
+              },
+              {
+                code: "108142",
+                value: "6W - 500lm - 3000k/c - 11cm - T45/TRANS",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108142.webp?alt=media&token=1ca43a31-824d-48e4-ba3b-df55c9dd31bf",
+              },
+              {
+                code: "108143",
+                value: "6W - 500lm - 2200k/c - 11cm - T45/AMBAR",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108142.webp?alt=media&token=1ca43a31-824d-48e4-ba3b-df55c9dd31bf",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento A60 Smoke",
+            options: [
+              {
+                code: "108167",
+                value: "5W - 220lm - 3000k/c - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108167.webp?alt=media&token=72cf6b78-b64b-4aca-8d4d-a50e4b7999aa",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento A50",
+            options: [
+              {
+                code: "108167",
+                value: "5W - 450lm - 3000k/c - 55x102mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108167.webp?alt=media&token=72cf6b78-b64b-4aca-8d4d-a50e4b7999aa",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_019.webp?alt=media&token=61e79d09-5aa2-4975-ab89-4d770b5ae470",
-    products: [],
+    products: [
+      {
+        name: "Bombillos",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led Filamento Mini Pera",
+            options: [
+              {
+                code: "108164",
+                value: "5W - 500lm - 3000k/c - 48x115mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108164.webp?alt=media&token=9c2b2f41-796e-4190-9bd3-c0c9d22dadf7",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Pera",
+            options: [
+              {
+                code: "108165",
+                value: "5W - 500lm - 3000k/c - 64x140mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108165.webp?alt=media&token=c659bd64-c971-499b-86c8-944f477f72a0",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Pera Spiral",
+            options: [
+              {
+                code: "108166",
+                value: "5W - 500lm - 3000k/c - 45x89mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108166.webp?alt=media&token=8e2b7143-41fe-4228-acd3-187cd475a7fc",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27",
+            options: [
+              {
+                code: "108613",
+                value: "5W - 500lm - 3000k/c - 62x142mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108613.webp?alt=media&token=222da634-a9f1-45ea-8798-2af371032d14",
+              },
+              {
+                code: "108614",
+                value: "5W - 500lm - 3000k/c - 62x142mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108614.webp?alt=media&token=8717edef-5974-4a07-a7bd-3a380b51535c",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento Diamante",
+            options: [
+              {
+                code: "108170",
+                value: "5W - 500lm - 3000k/c - 82x112mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108170.webp?alt=media&token=7527b5c1-db81-4c54-9eec-b6aebe97acac",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 G45",
+            options: [
+              {
+                code: "108160",
+                value: "4W - 400lm - Azul - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108160.webp?alt=media&token=7a282726-b9c3-4e3b-b24a-310377962c37",
+              },
+              {
+                code: "108599",
+                value: "4W - 400lm - Amarillo - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Ffilamento%20amarillo%20108599-02.webp?alt=media&token=20e8e497-0fac-43d1-b019-77eb6651b3a1",
+              },
+              {
+                code: "108159",
+                value: "4W - 400lm - Morado - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108159.webp?alt=media&token=432f505c-f7c0-4aab-8005-17c058d09cd5",
+              },
+              {
+                code: "108162",
+                value: "4W - 400lm - Naranja - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108162.webp?alt=media&token=402d5c24-8317-4296-ac94-09bb820c8b32",
+              },
+              {
+                code: "108161",
+                value: "4W - 400lm - Rojo - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108161.webp?alt=media&token=3f257749-c6f2-4027-9b0e-2e1b2d7a8da2",
+              },
+              {
+                code: "108598",
+                value: "4W - 400lm - Rosa - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108598.webp?alt=media&token=454b5936-abd0-41b7-8f68-420615623347",
+              },
+              {
+                code: "108163",
+                value: "4W - 400lm - Verde - 45x90mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108163.webp?alt=media&token=a6a8d6dd-530b-4edb-8583-4228feb17902",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led E27 G45 Pinpon",
+            options: [
+              {
+                code: "108084",
+                value: "2W - 170 - Azul - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108084.webp?alt=media&token=15b4e8f6-39e2-4c8d-911c-aa8ae21f785e",
+              },
+              {
+                code: "108085",
+                value: "2W - 170 - Verde - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108085.webp?alt=media&token=dd1a5672-286b-40cd-b233-be8b22bd2e3a",
+              },
+              {
+                code: "108086",
+                value: "2W - 170 - Amarillo - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108086.webp?alt=media&token=4747126b-7303-400a-a9f9-e9c5fe8e07bc",
+              },
+              {
+                code: "108087",
+                value: "2W - 170 - 3000k/c - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108087-02.webp?alt=media&token=3097cca6-5a87-4b49-bdc7-cdbb732556b6",
+              },
+              {
+                code: "108088",
+                value: "2W - 170 - 6500k/b - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108088.webp?alt=media&token=7753e6a3-d3e0-45ac-bcff-d6157ede1395",
+              },
+              {
+                code: "108121",
+                value: "2W - 170 - Rojo - 45x89mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108121.webp?alt=media&token=d070183f-5bf8-4c62-ac00-0b2a6c4ca987",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_020.webp?alt=media&token=e3197fd6-7fb5-4874-8aa2-48f35fba2abe",
-    products: [],
+    products: [
+      {
+        name: "Bombillos",
+        description: "",
+        tipos: [
+          {
+            name: "Bombillo Led E27 A60",
+            options: [
+              {
+                code: "108079",
+                value: "8W - 720lm - Azul - 60x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108079.webp?alt=media&token=fbfd9d0a-8872-46b8-9bee-d1b9c989f78a",
+              },
+              {
+                code: "108080",
+                value: "8W - 720lm - Rosa - 60x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108080.webp?alt=media&token=6897b1fa-9bd0-45dc-800b-df304fbdc521",
+              },
+              {
+                code: "108081",
+                value: "8W - 720lm - Morado - 60x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108081.webp?alt=media&token=28154065-3860-413f-a4bd-2c5ff5626650",
+              },
+              {
+                code: "108082",
+                value: "8W - 720lm - Verde - 60x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108082.webp?alt=media&token=d5a4f6e0-1c58-4503-b455-257d01c1067b",
+              },
+              {
+                code: "108083",
+                value: "8W - 720lm - Rojo - 60x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108083.webp?alt=media&token=9f276215-f3cf-416a-8319-6baae78f2690",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 A60",
+            options: [
+              {
+                code: "44609",
+                value: "5W - 500lm - Azul - 60x100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44609%20-%20IM%C3%81GEN.webp?alt=media&token=13eef320-b360-4af0-84a3-b73ababcd899",
+              },
+              {
+                code: "44610",
+                value: "5W - 500lm - Rojo - 60x100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44610%20-%20IM%C3%81GEN.webp?alt=media&token=7fec921d-b4b0-446b-98cc-5903f80de98d",
+              },
+              {
+                code: "44611",
+                value: "5W - 500lm - Verde - 60x100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44611%20-%20IM%C3%81GEN.webp?alt=media&token=baee0b98-bad4-4825-841c-91e0ffd1d8f0",
+              },
+              {
+                code: "44612",
+                value: "5W - 500lm - Naranja - 60x100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44612%20-%20IM%C3%81GEN.webp?alt=media&token=047ed877-57e6-482e-8c91-6ea1c890dd06",
+              },
+              {
+                code: "44613",
+                value: "5W - 500lm - Morado - 60x100mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F44613%20-%20IM%C3%81GEN.webp?alt=media&token=54bd3695-7a07-40bc-a636-e73dc11cae97",
+              },
+              {
+                code: "108596",
+                value: "5W - 500lm - Rosa - 60x100mm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108597",
+                value: "5W - 500lm - Amarillo - 60x100mm",
+                UE: "1/50",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 A60 Chispa",
+            options: [
+              {
+                code: "108134",
+                value: "5W - 150lm - 3000k/c - 60x115mm",
+                UE: "1/150",
+                img: "",
+              },
+              {
+                code: "108135",
+                value: "5W - 150lm - Azul - 60x115mm",
+                UE: "1/150",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento A60 Spiral",
+            options: [
+              {
+                code: "108154",
+                value: "5W - 250lm - 3000k/c - 60x110mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108154.webp?alt=media&token=3e04e582-c87f-48d1-9612-e2501e366177",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E27 Vela",
+            options: [
+              {
+                code: "108600",
+                value: "5W - 500lm - Rojo - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108600%20108601%20-%20BOLBILLO%20LED%20VELA-02.webp?alt=media&token=85ed284f-38fe-4b3f-84bb-259823658d44",
+              },
+              {
+                code: "108602",
+                value: "5W - 500lm - Naranja - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108602%20108603%20-%20Filament%20Naranja.webp?alt=media&token=3957563a-9e7f-4f68-a3e0-0d07ebbd794b",
+              },
+            ],
+          },
+          {
+            name: "Bombillo Led Filamento E14 Vela",
+            options: [
+              {
+                code: "108601",
+                value: "5W - 500lm - Rojo - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108600%20108601%20-%20BOLBILLO%20LED%20VELA-02.webp?alt=media&token=85ed284f-38fe-4b3f-84bb-259823658d44",
+              },
+              {
+                code: "108603",
+                value: "5W - 500lm - Naranja - 37x80mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108602%20108603%20-%20Filament%20Naranja.webp?alt=media&token=3957563a-9e7f-4f68-a3e0-0d07ebbd794b",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_021.webp?alt=media&token=172c0f63-bec7-4832-95a5-b70d5140f237",
-    products: [],
+    products: [
+      {
+        name: "Paneles",
+        description: "",
+        tipos: [
+          {
+            name: "Panel Led Circular Sobreponer (Tortuga)",
+            options: [
+              {
+                code: "108113",
+                value: "12W - 1150lm - 6500k/b - 160x46mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108113%20%20108114.webp?alt=media&token=1712c651-81ef-4d27-93b3-773d93f606f5",
+              },
+              {
+                code: "108114",
+                value: "15W - 1420lm - 6500k/b - 160x46mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108113%20%20108114.webp?alt=media&token=1712c651-81ef-4d27-93b3-773d93f606f5",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Ovalado Sobreponer (Tortuga)",
+            options: [
+              {
+                code: "108115",
+                value: "12W - 1150lm - 6500k/b - 175x46mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108115%20%20108116.webp?alt=media&token=13b03c87-6ebf-4bcd-8760-740b99052489",
+              },
+              {
+                code: "108116",
+                value: "15W - 1420lm - 6500k/b - 175x46mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108115%20%20108116.webp?alt=media&token=13b03c87-6ebf-4bcd-8760-740b99052489",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Redondo Frameles Sobreponer",
+            options: [
+              {
+                code: "107289",
+                value: "18W - 1400lm - 6500k/b - 120mm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107289-107290-107462%20Panel%20redondo%20led%20sobreponer.webp?alt=media&token=627fd21a-e3ec-427e-8539-a5487bd52eab",
+              },
+              {
+                code: "107290",
+                value: "24W - 1900lm - 6500k/b - 170mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107289-107290-107462%20Panel%20redondo%20led%20sobreponer.webp?alt=media&token=627fd21a-e3ec-427e-8539-a5487bd52eab",
+              },
+              {
+                code: "107462",
+                value: "36W - 2600lm - 6500k/b - 220mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107289-107290-107462%20Panel%20redondo%20led%20sobreponer.webp?alt=media&token=627fd21a-e3ec-427e-8539-a5487bd52eab",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Cuadrado Frameles Sobreponer",
+            options: [
+              {
+                code: "107463",
+                value: "18W - 1400lm - 6500k/b - 120mm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107463-107464-107465%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=33b0ad17-4f99-480f-9909-7275bc59cad6",
+              },
+              {
+                code: "107464",
+                value: "24W - 1900lm - 6500k/b - 170mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107463-107464-107465%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=33b0ad17-4f99-480f-9909-7275bc59cad6",
+              },
+              {
+                code: "107465",
+                value: "36W - 2600lm - 6500k/b - 220mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F107463-107464-107465%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=33b0ad17-4f99-480f-9909-7275bc59cad6",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Redondo Frameles Incrustar",
+            options: [
+              {
+                code: "107286",
+                value: "9W - 720lm - 6500k/b - 90mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107286-107287-107288-107461%20Panel%20redondo.webp?alt=media&token=0a2502fd-d497-4104-a2cd-87ff7f8f3bfc",
+              },
+              {
+                code: "107287",
+                value: "18W - 1380lm - 6500k/b - 120mm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107286-107287-107288-107461%20Panel%20redondo.webp?alt=media&token=0a2502fd-d497-4104-a2cd-87ff7f8f3bfc",
+              },
+              {
+                code: "107288",
+                value: "24W - 1800lm - 6500k/b - 170mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107286-107287-107288-107461%20Panel%20redondo.webp?alt=media&token=0a2502fd-d497-4104-a2cd-87ff7f8f3bfc",
+              },
+              {
+                code: "107461",
+                value: "36W - 2600lm - 6500k/b - 220mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107286-107287-107288-107461%20Panel%20redondo.webp?alt=media&token=0a2502fd-d497-4104-a2cd-87ff7f8f3bfc",
+              },
+              {
+                code: "108112",
+                value: "48W - 3600lm - 6500k/b - 30mm",
+                UE: "1/10",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107286-107287-107288-107461%20Panel%20redondo.webp?alt=media&token=0a2502fd-d497-4104-a2cd-87ff7f8f3bfc",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Cuadrado Frameles Incrustar",
+            options: [
+              {
+                code: "107292",
+                value: "9W - 720lm - 6500k/b - 90mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107292-107293-107294-107460%20Panel%20cuadrado.webp?alt=media&token=4ef91a02-24f0-455b-92b7-e5632e0e98b7",
+              },
+              {
+                code: "107293",
+                value: "18W - 1380lm - 6500k/b - 120mm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107292-107293-107294-107460%20Panel%20cuadrado.webp?alt=media&token=4ef91a02-24f0-455b-92b7-e5632e0e98b7",
+              },
+              {
+                code: "107294",
+                value: "24W - 1800lm - 6500k/b - 170mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107292-107293-107294-107460%20Panel%20cuadrado.webp?alt=media&token=4ef91a02-24f0-455b-92b7-e5632e0e98b7",
+              },
+              {
+                code: "107460",
+                value: "36W - 2600lm - 6500k/b - 220mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F107292-107293-107294-107460%20Panel%20cuadrado.webp?alt=media&token=4ef91a02-24f0-455b-92b7-e5632e0e98b7",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Redondo Sobreponer",
+            options: [
+              {
+                code: "67465",
+                value: "6W - 470lm - 6500k/b - 120mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F67465-67466-99277-99278%20Panel%20redondo%20sobreponer.webp?alt=media&token=7bca10a3-3018-4ca9-a7ac-8c884318368a",
+              },
+              {
+                code: "67466",
+                value: "12W - 960lm - 6500k/b - 170mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F67465-67466-99277-99278%20Panel%20redondo%20sobreponer.webp?alt=media&token=7bca10a3-3018-4ca9-a7ac-8c884318368a",
+              },
+              {
+                code: "99277",
+                value: "18W - 1440lm - 6500k/b - 220mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F67465-67466-99277-99278%20Panel%20redondo%20sobreponer.webp?alt=media&token=7bca10a3-3018-4ca9-a7ac-8c884318368a",
+              },
+              {
+                code: "99278",
+                value: "24W - 1920lm - 6500k/b - 300mm",
+                UE: "1/10",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F67465-67466-99277-99278%20Panel%20redondo%20sobreponer.webp?alt=media&token=7bca10a3-3018-4ca9-a7ac-8c884318368a",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Cuadrado Sobreponer",
+            options: [
+              {
+                code: "108185",
+                value: "6W - 500lm - 6500k/b - 115x115mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F108185%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=06f84caa-ba41-464b-a784-bfec18d75001",
+              },
+              {
+                code: "108186",
+                value: "12W - 1000lm - 6500k/b - 170x170mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F108185%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=06f84caa-ba41-464b-a784-bfec18d75001",
+              },
+              {
+                code: "107976",
+                value: "18W - 1500lm - 6500k/b - 250x250mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F108185%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=06f84caa-ba41-464b-a784-bfec18d75001",
+              },
+              {
+                code: "107977",
+                value: "24W - 1800lm - 6500k/b - 300x300mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_sobreponer%2F108185%20Panel%20cuadrado%20sobreponer.webp?alt=media&token=06f84caa-ba41-464b-a784-bfec18d75001",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Redondo Incrustar",
+            options: [
+              {
+                code: "99319",
+                value: "3W - 240lm - 6500k/b - 85mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+              {
+                code: "99273",
+                value: "6W - 480lm - 6500k/b - 120mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+              {
+                code: "67460",
+                value: "9W - 720lm - 6500k/b - 146mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+              {
+                code: "99274",
+                value: "12W - 960lm - 6500k/b - 172mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+              {
+                code: "99275",
+                value: "18W - 1440lm - 6500k/b - 225mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+              {
+                code: "99276",
+                value: "24W - 1920lm - 6500k/b - 300mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F99319-99273-67460-99274-99275-99276%20panel%20led%20incrustar%20redondo.webp?alt=media&token=a30b887e-cbb6-443e-b651-ef47152dbf9a",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Cuadrado Incrustar",
+            options: [
+              {
+                code: "67458",
+                value: "9W - 720lm - 6500k/b - 146x146mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F67458-99271-99272-67459%20Panel%20cuadrado%20incrustar.webp?alt=media&token=3f44e92d-78cc-455e-9432-0eff5cd307cd",
+              },
+              {
+                code: "99271",
+                value: "12W - 960lm - 6500k/b - 172x172mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F67458-99271-99272-67459%20Panel%20cuadrado%20incrustar.webp?alt=media&token=3f44e92d-78cc-455e-9432-0eff5cd307cd",
+              },
+              {
+                code: "99272",
+                value: "18W - 1440lm - 6500k/b - 225x225mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F67458-99271-99272-67459%20Panel%20cuadrado%20incrustar.webp?alt=media&token=3f44e92d-78cc-455e-9432-0eff5cd307cd",
+              },
+              {
+                code: "67459",
+                value: "24W - 1920lm - 6500k/b - 300x300mm",
+                UE: "1/10",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fpanel_incrustar%2F67458-99271-99272-67459%20Panel%20cuadrado%20incrustar.webp?alt=media&token=3f44e92d-78cc-455e-9432-0eff5cd307cd",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:

@@ -7,11 +7,30 @@ import Page from "./components/Page";
 import { storeGlobal } from "./store/store";
 
 function App() {
-  const { hideCart, hideView } = storeGlobal();
-  const [currentPage, setCurrentPage] = useState(0);
+  const {
+    hideCart,
+    hideView,
+    currentPage,
+    nextPageZustand,
+    prevPageZustand,
+    goToPageZustand,
+  } = storeGlobal();
+
   const [pageImg, setPageImg] = useState("");
   const [productPage, setProductPage] = useState([]);
   const [sects, setSects] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    if (pageImg !== "") {
+      setIsLoading(true);
+      const img = new Image();
+      img.onload = () => {
+        setIsLoading(false);
+      };
+      img.src = pageImg;
+    }
+  }, [pageImg]);
 
   useEffect(() => {
     const preloadImages = async () => {
@@ -109,18 +128,18 @@ function App() {
 
   const nextPage = () => {
     if (currentPage < catalogo.length - 1) {
-      setCurrentPage(currentPage + 1);
+      nextPageZustand();
     }
   };
 
   const prevPage = () => {
     if (currentPage > 0) {
-      setCurrentPage(currentPage - 1);
+      prevPageZustand();
     }
   };
 
   const goToPage = (buttonType) => {
-    setCurrentPage(buttonType);
+    goToPageZustand(buttonType);
   };
 
   return (
@@ -133,11 +152,17 @@ function App() {
           <Nav goToPage={goToPage} />
         </div>
         <div className="container_catalogo">
-          <Page
-            imagePage={pageImg}
-            numberPage={currentPage + 1}
-            productsPage={productPage}
-          />
+          {isLoading ? (
+            <div className="loading_indicator_main">
+              <div className="loader"></div>
+            </div>
+          ) : (
+            <Page
+              imagePage={pageImg}
+              numberPage={currentPage + 1}
+              productsPage={productPage}
+            />
+          )}
           <div className="buttons_direction_page">
             <button
               onClick={() => {
@@ -164,7 +189,7 @@ function App() {
             </button>
           </div>
           <div className="page_indicator">
-            <span>Pagina {currentPage + 1}</span>
+            <span>Página {currentPage + 1}</span>
           </div>
         </div>
       </div>

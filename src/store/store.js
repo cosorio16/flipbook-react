@@ -20,7 +20,6 @@ export const storeGlobal = create((set) => ({
         carrito: [...state.carrito, producto],
       };
     }),
-
   deleteToCart: (producto) =>
     set((state) => ({
       carrito: state.carrito.filter((item) => item.codigo !== producto.codigo),
@@ -31,4 +30,10 @@ export const storeGlobal = create((set) => ({
   hideView: () => set((state) => ({ viewStatus: false })),
   handleCart: () => set((state) => ({ cartStatus: !state.cartStatus })),
   hideCart: () => set((state) => ({ cartStatus: false })),
+  currentPage: 0,
+  nextPageZustand: () =>
+    set((state) => ({ currentPage: state.currentPage + 1 })),
+  prevPageZustand: () =>
+    set((state) => ({ currentPage: state.currentPage - 1 })),
+  goToPageZustand: (e) => set((state) => ({ currentPage: e })),
 }));
