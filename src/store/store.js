@@ -36,4 +36,11 @@ export const storeGlobal = create((set) => ({
   prevPageZustand: () =>
     set((state) => ({ currentPage: state.currentPage - 1 })),
   goToPageZustand: (e) => set((state) => ({ currentPage: e })),
+  handleAmount: (index, cantidad) => {
+    set((state) => {
+      const updatedCarrito = [...state.carrito];
+      updatedCarrito[index].cantidad = cantidad;
+      return { carrito: updatedCarrito };
+    });
+  },
 }));

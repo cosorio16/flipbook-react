@@ -36,31 +36,13 @@
   justify-content: center;
 }
 
-.loader {
-  width: 50px;
-  padding: 8px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: #2756ff;
-  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
-  -webkit-mask: var(--_m);
-  mask: var(--_m);
-  -webkit-mask-composite: source-out;
-  mask-composite: subtract;
-  animation: l3 1s infinite linear;
-}
-@keyframes l3 {
-  to {
-    transform: rotate(1turn);
-  }
-}
-
 .nameToolsProduct {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 .amount_view_container {
@@ -86,10 +68,10 @@
   width: 100px;
   text-align: center;
   padding: 2px;
-  border-radius: 10px;
   border: none;
   font-size: 1.1rem;
   color: black;
+  border: 1px solid rgba(0, 0, 0, 0.462);
 }
 
 .close_button_view {

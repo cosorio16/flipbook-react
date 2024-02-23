@@ -3,14 +3,20 @@ import "../styles/Cart.css";
 import { storeGlobal } from "../store/store";
 
 function Cart() {
-  const { deleteToCart, carrito, cartStatus, handleCart, hideView } =
-    storeGlobal();
+  const {
+    deleteToCart,
+    carrito,
+    cartStatus,
+    handleCart,
+    hideView,
+    handleAmount,
+  } = storeGlobal();
 
   const handleDelete = (index) => {
     const item = carrito[index];
     deleteToCart(item);
   };
-
+  
   return (
     <>
       <div className="cart_status">
@@ -52,8 +58,23 @@ function Cart() {
                     </p>
                     <p className="cantidad_header">
                       <span className="charact_item">Cantidad: </span>
-                      <span>{item.cantidad}</span>
+                      <input
+                        type="text"
+                        value={item.cantidad}
+                        onChange={(e) => handleAmount(index, e.target.value)}
+                        onBlur={() => {
+                          const value =
+                            item.cantidad === ""
+                              ? ""
+                              : parseInt(item.cantidad, 10);
+
+                          if (isNaN(value) || value < 1) {
+                            handleAmount(index, 1);
+                          }
+                        }}
+                      />
                     </p>
+
                     <p className="code_header">
                       <span className="charact_item">Código:</span>{" "}
                       <span>{item.codigo}</span>

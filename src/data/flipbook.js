@@ -2512,27 +2512,1029 @@ const catalogo = [
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_022.webp?alt=media&token=0cd67306-6c8d-43e4-8363-eeeebd427191",
-    products: [],
+    products: [
+      {
+        name: "Iluminacion",
+        description: "",
+        tipos: [
+          {
+            name: "Panel Led Incrustar Redondo Plastico",
+            options: [
+              {
+                code: "120002",
+                value: "12W - 1000lm - 6500k/b - 172mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120020",
+                value: "12W - 1000lm - 4000k/c - 172mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120038",
+                value: "12W - 1000lm - 3000k/c - 172mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120003",
+                value: "18W - 1600lm - 6000k/c - 225mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120021",
+                value: "18W - 1600lm - 4000k/c - 225mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120039",
+                value: "18W - 1600lm - 3000k/c - 225mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120004",
+                value: "24W - 1900lm - 6500k/b - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120022",
+                value: "24W - 1900lm - 4000k/c - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120040",
+                value: "24W - 1900lm - 3000k/c - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Sobreponer Redondo Plastico",
+            options: [
+              {
+                code: "120011",
+                value: "12W - 1000lm - 6500k/b - 170mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120029",
+                value: "12W - 1000lm - 4000k/c - 170mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120047",
+                value: "12W - 1000lm - 3000k/c - 170mm",
+                UE: "1/40",
+                img: "",
+              },
+              {
+                code: "120012",
+                value: "18W - 1550lm - 6000k/c - 220mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120030",
+                value: "18W - 1550lm - 4000k/c - 220mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120048",
+                value: "18W - 1550lm - 3000k/c - 220mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120013",
+                value: "24W - 1800lm - 6500k/b - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120031",
+                value: "24W - 1800lm - 4000k/c - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+              {
+                code: "120049",
+                value: "24W - 1800lm - 3000k/c - 300mm",
+                UE: "1/20",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Bala Incrustar Redondo Plastico",
+            options: [
+              {
+                code: "108207",
+                value: "6W - 420lm - 6500k/b - 6.35cm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108213",
+                value: "6W - 420lm - 3000k/c - 6.35cm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108210",
+                value: "6W - 420lm - 3000k/c - 6.35cm",
+                UE: "1/60",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108208",
+                value: "8W - 600lm - 6500k/b - 8.90cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108208",
+                value: "8W - 600lm - 3000k/c - 8.90cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108214",
+                value: "8W - 600lm - 3000k/c - 8.90cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108209",
+                value: "10W - 920lm - 6500k/b - 15.25cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108215",
+                value: "10W - 920lm - 3000k/c - 15.25cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+              {
+                code: "108212",
+                value: "10W - 920lm - 3000k/c - 15.25cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108207.webp?alt=media&token=3d1ffae8-ec22-4e24-bc96-9b79bef123ee",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Bala Incrustar Redondo Metal",
+            options: [
+              {
+                code: "108216",
+                value: "4W - 280lm - 6500k/b - 98mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+              {
+                code: "108217",
+                value: "6W - 440lm - 6500k/b - 105mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+              {
+                code: "108218",
+                value: "8W - 650lm - 6500k/b - 120mm",
+                UE: "1/100",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+              {
+                code: "108219",
+                value: "10W - 750lm - 6500k/b - 148mm",
+                UE: "1/40",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+              {
+                code: "108220",
+                value: "12W - 980lm - 6500k/b - 180mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+              {
+                code: "108221",
+                value: "16W - 1450lm - 6500k/b - 220mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108216-21%20(2).webp?alt=media&token=53e11d1a-e6bc-44d6-bbea-34c55e706d79",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Grande Sobreponer",
+            options: [
+              {
+                code: "108183",
+                value: "48W - 4400lm - 6500k/b - 120x30cm",
+                UE: "1/5",
+                img: "",
+              },
+              {
+                code: "108182",
+                value: "48W - 4900lm - 6500k/b - 60x60cm",
+                UE: "1/5",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108184-02.webp?alt=media&token=962dee75-8b56-4001-984d-12869df53691",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Grande Incrustar/Colgar",
+            options: [
+              {
+                code: "47390",
+                value: "48W - 4900lm - 6500k/b - 60x60cm",
+                UE: "1/5",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47390.webp?alt=media&token=e01ea865-4815-4ac0-a7f2-982578fbc44f",
+              },
+              {
+                code: "47391",
+                value: "48W - 4400lm - 6500k/b - 120x30cm",
+                UE: "1/5",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47391.webp?alt=media&token=7ada10b8-43e9-43a5-8c73-0a4480980618",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Incrustar Backlight",
+            options: [
+              {
+                code: "108184",
+                value: "48W - 4900lm - 6500k/b - 60x60cm",
+                UE: "1/5",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F108184-02.webp?alt=media&token=962dee75-8b56-4001-984d-12869df53691",
+              },
+            ],
+          },
+          {
+            name: "Kit Para Colgar Panel Led",
+            options: [
+              {
+                code: "47461",
+                value: "16 piezas",
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FfullWat_2022%2F47461%20kit%20panel.webp?alt=media&token=03befaee-4bf9-4eda-8edf-415a0f7a0b09",
+              },
+            ],
+          },
+          {
+            name: "Panel Led Incrustar Colgar",
+            options: [
+              {
+                code: "120374",
+                value: "36W - 2850lm - 6500k/b - 30x60cm",
+                UE: "1/5",
+                img: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_023.webp?alt=media&token=53a41064-230b-41ce-9b6c-b6545fa1f83d",
-    products: [],
+    products: [
+      {
+        name: "Reflectores",
+        description: "",
+        tipos: [
+          {
+            name: "Reflector Led Plano",
+            options: [
+              {
+                code: "108418",
+                value: "50W - 7200lm - 6500k/b - 83x381x110mm",
+                UE: "1/6",
+                img: "",
+              },
+              {
+                code: "108419",
+                value: "100W - 13000lm - 6500k/n - 183x381x110",
+                UE: "1/6",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108419%20-%20100w.webp?alt=media&token=4db38454-6a3f-4f9c-a4c5-cc36591e7cea",
+              },
+              {
+                code: "108420",
+                value: "150W - 19800lm - 6500k/b - 286x381x110mm",
+                UE: "1/3",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108420%20-%20150W.webp?alt=media&token=0272ff6b-daa8-4c2b-9d3a-b1caceb78b95",
+              },
+              {
+                code: "108421",
+                value: "200W - 26200lm - 6500k/b - 392x381x110mm",
+                UE: "1/2",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108421%20-%20200W.webp?alt=media&token=9d7108c3-77dd-487a-b01a-2016c4b3807c",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led",
+            options: [
+              {
+                code: "47002",
+                value: "10W - 1000lm - 6500k/b - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47002%20-%20IMAGEN.webp?alt=media&token=566ca036-e718-48eb-a41d-505deaa54151",
+              },
+              {
+                code: "108383",
+                value: "10W - 1000lm - 3000k/c - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47002%20-%20IMAGEN.webp?alt=media&token=566ca036-e718-48eb-a41d-505deaa54151",
+              },
+              {
+                code: "108388",
+                value: "10W - 1000lm - 4000k/n - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47002%20-%20IMAGEN.webp?alt=media&token=566ca036-e718-48eb-a41d-505deaa54151",
+              },
+              {
+                code: "47003",
+                value: "20W - 2000lm - 6500k/b - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47003%20-%20IMAGEN.webp?alt=media&token=94d79137-5a54-4a84-8093-b479706b2a8b",
+              },
+              {
+                code: "108384",
+                value: "20W - 2000lm - 3000k/c - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47003%20-%20IMAGEN.webp?alt=media&token=94d79137-5a54-4a84-8093-b479706b2a8b",
+              },
+              {
+                code: "108389",
+                value: "20W - 2000lm - 4000k/n - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47003%20-%20IMAGEN.webp?alt=media&token=94d79137-5a54-4a84-8093-b479706b2a8b",
+              },
+              {
+                code: "47004",
+                value: "30W - 2900lm - 6500k/b - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47004%20-%20IMAGEN.webp?alt=media&token=acb0b046-f123-4259-a9a5-a08e2fc9d2ae",
+              },
+              {
+                code: "108385",
+                value: "30W - 2900lm - 3000k/c - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47004%20-%20IMAGEN.webp?alt=media&token=acb0b046-f123-4259-a9a5-a08e2fc9d2ae",
+              },
+              {
+                code: "108390",
+                value: "30W - 2900lm - 4000k/n - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47004%20-%20IMAGEN.webp?alt=media&token=acb0b046-f123-4259-a9a5-a08e2fc9d2ae",
+              },
+              {
+                code: "47005",
+                value: "50W - 4800lm - 6500k/b - 215x196x24mm",
+                UE: "1/16",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47005%20-%20IMAGEN.webp?alt=media&token=48234069-f978-49f7-ac1e-7fc3dd66fe44",
+              },
+              {
+                code: "108386",
+                value: "50W - 4800lm - 3000k/c - 215x196x24mm",
+                UE: "1/16",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47005%20-%20IMAGEN.webp?alt=media&token=48234069-f978-49f7-ac1e-7fc3dd66fe44",
+              },
+              {
+                code: "108391",
+                value: "50W - 4800lm - 4000k/n - 215x196x24mm",
+                UE: "1/16",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47005%20-%20IMAGEN.webp?alt=media&token=48234069-f978-49f7-ac1e-7fc3dd66fe44",
+              },
+              {
+                code: "47006",
+                value: "100W - 10000lm - 6500k/b - 280x247x30mm",
+                UE: "1/8",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47006%20-%20IMAGEN.webp?alt=media&token=54c4ee11-f627-41e7-b4de-e27b99c76c60",
+              },
+              {
+                code: "108387",
+                value: "100W - 10000lm - 3000k/c - 280x247x30mm",
+                UE: "1/8",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47006%20-%20IMAGEN.webp?alt=media&token=54c4ee11-f627-41e7-b4de-e27b99c76c60",
+              },
+              {
+                code: "108392",
+                value: "100W - 10000lm - 4000k/n - 280x247x30mm",
+                UE: "1/8",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47006%20-%20IMAGEN.webp?alt=media&token=54c4ee11-f627-41e7-b4de-e27b99c76c60",
+              },
+              {
+                code: "47007",
+                value: "150W - 14250lm - 6500k/b - 350x284x76mm",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47006%20-%20IMAGEN.webp?alt=media&token=54c4ee11-f627-41e7-b4de-e27b99c76c60",
+              },
+              {
+                code: "47008",
+                value: "200W - 18000lm - 6500k/b - 350x284x76mm",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F47008%20-%20IMAGEN.webp?alt=media&token=8cbf50b6-e64e-4414-9d19-b015a2bd80d1",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led Plano",
+            options: [
+              {
+                code: "108422",
+                value: "150W - 13500lm - 6500k/b - 339x292x42mm",
+                UE: "1/6",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2FReflector%20108422%20150W-3.webp?alt=media&token=59fa1a90-c9df-4d2d-b91b-db776b7f06de",
+              },
+              {
+                code: "108423",
+                value: "200W - 17500lm - 6500k/b - 404x331x43mm",
+                UE: "1/6",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108423%20-%20200W.webp?alt=media&token=828674b2-2cc5-4729-9000-a56c5b7666ff",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led Tipo RGB",
+            options: [
+              {
+                code: "108414",
+                value: "10W - 620lm - RGB - 104x125x27mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108414%20-10W.webp?alt=media&token=9e2406f5-94ed-405c-8458-b2f389d4fbd2",
+              },
+              {
+                code: "108415",
+                value: "20W - 940lm - RGB - 125x152x28mm",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108415%20-20W.webp?alt=media&token=c301e25f-3487-480e-9dd1-bd99d4e5df87",
+              },
+              {
+                code: "108416",
+                value: "30W - 1600lm - RGB - 168x209x30mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108416%20-%2030W.webp?alt=media&token=d8c12296-ef84-4328-adb4-52bd9366441f",
+              },
+              {
+                code: "108417",
+                value: "50W - 1640lm - RGB - 200x237x36mm",
+                UE: "1/12",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108417%20-%2050W.webp?alt=media&token=e2ae0aa9-a8b5-4305-acd9-4b0c840a5c08",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led High Bay",
+            options: [
+              {
+                code: "108426",
+                value: "100W - 11500lm - 7000k/b - 206x126mm",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108426%20108427%20108428%20100-150-200W-3.webp?alt=media&token=b8e1201a-3124-4e3d-98db-cca01fc5bfa5",
+              },
+              {
+                code: "108427",
+                value: "150W - 17000lm - 7000k/b - 250x132mm",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108426%20108427%20108428%20100-150-200W-3.webp?alt=media&token=b8e1201a-3124-4e3d-98db-cca01fc5bfa5",
+              },
+              {
+                code: "108428",
+                value: "200W - 23000lm - 7000k/b - 294x143mm",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108426%20108427%20108428%20100-150-200W-3.webp?alt=media&token=b8e1201a-3124-4e3d-98db-cca01fc5bfa5",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_024.webp?alt=media&token=e03258a0-4d7a-4e61-b354-a4269161bcf4",
-    products: [],
+    products: [
+      {
+        name: "Reflectores",
+        description: "",
+        tipos: [
+          {
+            name: "Reflector Led",
+            options: [
+              {
+                code: "108393",
+                value: "10W - 1000lm - Azul - 70x70x18mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108393%20108397%20108401%20108405%2010W.webp?alt=media&token=98edd94f-81ef-4ab5-86ed-6de0731ec1f0",
+              },
+              {
+                code: "108397",
+                value: "10W - 1000lm - Morado - 70x70x18mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108393%20108397%20108401%20108405%2010W.webp?alt=media&token=98edd94f-81ef-4ab5-86ed-6de0731ec1f0",
+              },
+              {
+                code: "108401",
+                value: "10W - 1000lm - Verde - 70x70x18mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108393%20108397%20108401%20108405%2010W.webp?alt=media&token=98edd94f-81ef-4ab5-86ed-6de0731ec1f0",
+              },
+              {
+                code: "108405",
+                value: "10W - 1000lm - Rojo - 70x70x18mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108393%20108397%20108401%20108405%2010W.webp?alt=media&token=98edd94f-81ef-4ab5-86ed-6de0731ec1f0",
+              },
+              {
+                code: "108394",
+                value: "20W - 2000lm - Azul - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108394%20108398%20108402%20108406%2020W.webp?alt=media&token=c6b89e9c-2eb8-4fc9-9d65-9a0da2b36084",
+              },
+              {
+                code: "108398",
+                value: "20W - 2000lm - Morado - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108394%20108398%20108402%20108406%2020W.webp?alt=media&token=c6b89e9c-2eb8-4fc9-9d65-9a0da2b36084",
+              },
+              {
+                code: "108402",
+                value: "20W - 2000lm - Verde - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108394%20108398%20108402%20108406%2020W.webp?alt=media&token=c6b89e9c-2eb8-4fc9-9d65-9a0da2b36084",
+              },
+              {
+                code: "108406",
+                value: "20W - 2000lm - Rojo - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108394%20108398%20108402%20108406%2020W.webp?alt=media&token=c6b89e9c-2eb8-4fc9-9d65-9a0da2b36084",
+              },
+              {
+                code: "108395",
+                value: "30W - 2900lm - Azul - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108395%20-%20108399%20-%20108403%20-%20108407%2030W.webp?alt=media&token=aa7b6a65-0e4d-4599-b1e5-ca9ca57eac0f",
+              },
+              {
+                code: "108399",
+                value: "30W - 2900lm - Morado - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108395%20-%20108399%20-%20108403%20-%20108407%2030W.webp?alt=media&token=aa7b6a65-0e4d-4599-b1e5-ca9ca57eac0f",
+              },
+              {
+                code: "108403",
+                value: "30W - 2900lm - Verde - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108395%20-%20108399%20-%20108403%20-%20108407%2030W.webp?alt=media&token=aa7b6a65-0e4d-4599-b1e5-ca9ca57eac0f",
+              },
+              {
+                code: "108407",
+                value: "30W - 2900lm - Rojo - 115x118x20mm",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108395%20-%20108399%20-%20108403%20-%20108407%2030W.webp?alt=media&token=aa7b6a65-0e4d-4599-b1e5-ca9ca57eac0f",
+              },
+              {
+                code: "108396",
+                value: "50W - 4800lm - Azul - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108396%20108400%20108404%20108408%2050W.webp?alt=media&token=37dc6776-bb67-4a39-b0c9-bf5291dcd765",
+              },
+              {
+                code: "108400",
+                value: "50W - 4800lm - Morado - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108396%20108400%20108404%20108408%2050W.webp?alt=media&token=37dc6776-bb67-4a39-b0c9-bf5291dcd765",
+              },
+              {
+                code: "108404",
+                value: "50W - 4800lm - Verde - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108396%20108400%20108404%20108408%2050W.webp?alt=media&token=37dc6776-bb67-4a39-b0c9-bf5291dcd765",
+              },
+              {
+                code: "108408",
+                value: "50W - 4800lm - Rojo - 164x154x22mm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108396%20108400%20108404%20108408%2050W.webp?alt=media&token=37dc6776-bb67-4a39-b0c9-bf5291dcd765",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led Sensor De Movimiento",
+            options: [
+              {
+                code: "108409",
+                value: "10W - 1100lm - 6500k/b - 92x93x20mm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108409%20-%2010w.webp?alt=media&token=b10d66e8-fdb2-4cf2-a22c-b28684e9822e",
+              },
+              {
+                code: "108410",
+                value: "20W - 2200lm - 6500kb/ - 115x118x20m",
+                UE: "1/36",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108410%20-%2020W%20PIR.webp?alt=media&token=3dd7f859-b6cf-4f65-b8df-9ef7fbf8e154",
+              },
+              {
+                code: "108411",
+                value: "30W - 3300lm - 6500k/b - 164x154x22mm",
+                UE: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108411%20-%2030W%20PIR.webp?alt=media&token=a52e497b-1b8c-4339-a09b-977cb9be6b4d",
+                img: "",
+              },
+              {
+                code: "50W - 5000lm - 6500k/b - 215x196x24mm",
+                value: "1/16",
+                UE: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108412%20-%2050W%20PIR.webp?alt=media&token=247cf195-5f98-41d3-8650-e8e901cad75b",
+                img: "",
+              },
+              {
+                code: "100W - 11000lm - 6500k/b - 280x247x 30mm",
+                value: "1/8",
+                UE: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108413%20-%20100W.webp?alt=media&token=e37512a1-c572-4e0a-8f13-41d2116955e5",
+                img: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_025.webp?alt=media&token=bbd5a11c-ea4b-432a-928c-820a1e4f77c8",
-    products: [],
+    products: [
+      {
+        name: "Reflectores",
+        description: "",
+        tipos: [
+          {
+            name: "Reflector Led Solar",
+            options: [
+              {
+                code: "108365",
+                value: "40W - 400lm - 6500k/b - 3.2v - 6/12 hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108365%2040W_.webp?alt=media&token=e3f88dbb-87aa-43a3-b9df-56e4967f4a57",
+              },
+              {
+                code: "108370",
+                value: "40W - 400lm - 4000k/n - 3.2v - 6/12 hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108365%2040W_.webp?alt=media&token=e3f88dbb-87aa-43a3-b9df-56e4967f4a57",
+              },
+              {
+                code: "108366",
+                value: "60W - 400lm - 6500k/b - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108366%2060W.webp?alt=media&token=3f3a9b77-5076-453d-9978-9b7cba34ffe2",
+              },
+              {
+                code: "108366",
+                value: "60W - 520lm - 4000k/n - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108366%2060W.webp?alt=media&token=3f3a9b77-5076-453d-9978-9b7cba34ffe2",
+              },
+              {
+                code: "108367",
+                value: "100W - 520lm - 6500k/b - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108367%20100W.webp?alt=media&token=786391e8-c796-4596-a58d-6350bb9f94b6",
+              },
+              {
+                code: "108372",
+                value: "100W - 520lm - 4000k/n - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108367%20100W.webp?alt=media&token=786391e8-c796-4596-a58d-6350bb9f94b6",
+              },
+              {
+                code: "108368",
+                value: "185W - 1280lm - 6500k/b - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108368%20185W.webp?alt=media&token=a316f4ca-ae23-4a74-9c81-d6ddd242d550",
+              },
+              {
+                code: "108373",
+                value: "185W - 1280lm - 4000k/n - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108368%20185W.webp?alt=media&token=a316f4ca-ae23-4a74-9c81-d6ddd242d550",
+              },
+              {
+                code: "108369",
+                value: "200W - 1350lm - 6500k/b - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108369%20200W.webp?alt=media&token=4c3226d9-c5f3-49f7-8169-60d5446c4d6b",
+              },
+              {
+                code: "108374",
+                value: "200W - 1350lm - 4000k/n - 3.2v - 6/12hrs",
+                UE: "1/4",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Freflectores_nuevos%2F108369%20200W.webp?alt=media&token=4c3226d9-c5f3-49f7-8169-60d5446c4d6b",
+              },
+            ],
+          },
+          {
+            name: "Reflector Led Solar Integrado",
+            options: [
+              {
+                code: "108375",
+                value: "50W - 600lm - 6500k/b - 3.7v - 36/40hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108379",
+                value: "50W - 600lm - 4000k/n - 3.7v - 36/40hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108376",
+                value: "80W - 720lm - 6500k/b - 3.7v - 48/52hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108380",
+                value: "80W - 720lm - 4000k/n - 3.7v - 48/52hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108377",
+                value: "100W - 1000lm - 6500k/b - 3.7v - 36/40hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108381",
+                value: "100W - 1000lm - 4000k/n - 3.7v - 36/40hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108378",
+                value: "120W - 1200lm - 6500k/b - 3.7v - 48/52hrs",
+                UE: "1/4",
+                img: "",
+              },
+              {
+                code: "108382",
+                value: "120W - 1200lm - 4000k/n - 3.7v - 48/52hrs",
+                UE: "1/4",
+                img: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_026.webp?alt=media&token=c244b834-d6f3-4192-b2b7-de64862688a2",
-    products: [],
+    products: [
+      {
+        name: "luminaria",
+        description: "",
+        tipos: [
+          {
+            name: "Luminaria Led Tubo T8",
+            options: [
+              {
+                code: "47000",
+                value: "9W - 720lm - 6500k/b - 60cm - Vidrio",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
+              },
+              {
+                code: "108117",
+                value: "9W - 720lm - 6500k/b - 60cm - Plastico",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
+              },
+              {
+                code: "47001",
+                value: "18W - 1500lm - 6500k/b - 120cm - Vidrio",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
+              },
+              {
+                code: "108118",
+                value: "18W - 1500lm - 6500k/b - 120cm - Plastico",
+                UE: "1/30",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
+              },
+            ],
+          },
+          {
+            name: "Luminaria Led Lineal Plana",
+            options: [
+              {
+                code: "120064",
+                value: "28W - 2300lm - 6500k/b - 60cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FfullWat_2022%2Fluminaria%20lineal.webp?alt=media&token=a1afdc1c-c080-47f3-a808-b872c3446d44",
+              },
+              {
+                code: "120065",
+                value: "54W - 4600lm - 6500k/b - 120cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2FfullWat_2022%2Fluminaria%20lineal.webp?alt=media&token=a1afdc1c-c080-47f3-a808-b872c3446d44",
+              },
+            ],
+          },
+          {
+            name: "Luminaria Led Tubo T5 Base Aluminio",
+            options: [
+              {
+                code: "45714",
+                value: "4W - 280lm - 6500k/b - 28.9x3.1cm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45714%20a%2045717%20luminaria%20led%20t5.webp?alt=media&token=91f1a115-1f13-4bd9-9bf2-6c3a2287f9df",
+              },
+              {
+                code: "45715",
+                value: "9W - 630lm - 6500k/b - 56.9x3.1cm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45714%20a%2045717%20luminaria%20led%20t5.webp?alt=media&token=91f1a115-1f13-4bd9-9bf2-6c3a2287f9df",
+              },
+              {
+                code: "45716",
+                value: "14W - 980lm - 6500k/b - 87.4x3.1cm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45714%20a%2045717%20luminaria%20led%20t5.webp?alt=media&token=91f1a115-1f13-4bd9-9bf2-6c3a2287f9df",
+              },
+              {
+                code: "45717",
+                value: "18W - 1260lm - 6500k/b - 117.9x3.1cm",
+                UE: "1/50",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45714%20a%2045717%20luminaria%20led%20t5.webp?alt=media&token=91f1a115-1f13-4bd9-9bf2-6c3a2287f9df",
+              },
+            ],
+          },
+          {
+            name: "Luminaria Led Tubo T5 Base Plastica",
+            options: [
+              {
+                code: "107366",
+                value: "9W - 630lm - 6500k/b - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108098",
+                value: "9W - 630lm - 3000k/c - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108099",
+                value: "9W - 630lm - 4000k/n - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108094",
+                value: "9W - 630lm - Morado - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108095",
+                value: "9W - 630lm - Azul - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108096",
+                value: "9W - 630lm - Verde - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108097",
+                value: "9W - 630lm - Rojo - 60cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "107367",
+                value: "14W - 980lm - 6500k/b - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108104",
+                value: "14W - 980lm - 3000k/c - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108105",
+                value: "14W - 980lm - 3000k/b - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108100",
+                value: "14W - 980lm - Morado - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108101",
+                value: "14W - 980lm - Azul - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108102",
+                value: "14W - 980lm - Verde - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108103",
+                value: "14W - 980lm - Rojo - 90cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "107368",
+                value: "18W - 1260lm - 6500k/b - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108110",
+                value: "18W - 1260lm - 3000k/c - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108111",
+                value: "18W - 1260lm - 4000k/n - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108106",
+                value: "18W - 1260lm - Morado - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108107",
+                value: "18W - 1260lm - Azul - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108108",
+                value: "18W - 1260lm - Verde - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+              {
+                code: "108109",
+                value: "18W - 1260lm - Rojo - 120cm",
+                UE: "1/50",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Luminaria Led Lineal",
+            options: [
+              {
+                code: "45710",
+                value: "18W - 1400lm - 6500k/b - 60x7.5cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45710-45711%20luminaria%20lineal.webp?alt=media&token=d7de3fc9-d367-48cf-b9a7-482742a8a932",
+              },
+              {
+                code: "45711",
+                value: "36W - 2800lm - 6500k/b - 120x7.5cm",
+                UE: "1/20",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2Fluminarias%2F45710-45711%20luminaria%20lineal.webp?alt=media&token=d7de3fc9-d367-48cf-b9a7-482742a8a932",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
