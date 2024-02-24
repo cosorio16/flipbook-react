@@ -133,10 +133,11 @@ function View({ optionProp, tipoSelect }) {
             )}
             <div className="nameToolsProduct">
               <h1>{tipoSelect}</h1>
-              {currentPage < 13 && (
+              {opcionSeleccionada && currentPage < 13 && (
                 <>
                   <p>Codigo: {codeOfProduct}</p>
                   <p>UE: {ueOfProduct}</p>
+                  <p>Opcion: {opcionSeleccionada}</p>
                 </>
               )}
               {opcionSeleccionada && currentPage > 13 && (
@@ -153,6 +154,7 @@ function View({ optionProp, tipoSelect }) {
                 <>
                   {optionProp.map((opcion, index) => (
                     <button
+                      className="button_view_option"
                       onClick={handleOpcionChange}
                       key={opcion.value}
                       value={opcion.value}

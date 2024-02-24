@@ -22,7 +22,8 @@ button {
 
 p,
 span,
-input {
+input,
+select {
   font-family: "Maven Pro", sans-serif;
 }
 
