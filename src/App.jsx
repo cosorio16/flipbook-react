@@ -93,15 +93,15 @@ function App() {
           { name: "Articulos de Pintura", number: 29 },
           { name: "herramientas manuales", number: 30 },
           { name: "Corte, pulido y debaste", number: 33 },
-          { name: "medicion", number: 34 },
-          { name: "Cerrajeria y candados", number: 35 },
+          { name: "Medición", number: 34 },
+          { name: "Cerrajería y candados", number: 35 },
           { name: "Malla Sombra y Sogas", number: 36 },
-          { name: "Herammientas agricolas", number: 37 },
+          { name: "Herammientas Agrícolas", number: 37 },
           { name: "Hidrolavadoras", number: 38 },
           { name: "Electrobombas", number: 39 },
           { name: "Compresores", number: 40 },
           { name: "Soldadores", number: 41 },
-          { name: "Fijacion", number: 42 },
+          { name: "Fijación", number: 42 },
           { name: "Accesorios", number: 44 },
         ];
       } else if (currentPage > 44) {
@@ -116,7 +116,7 @@ function App() {
           { name: "Combos", number: 53 },
           { name: "LLaves terminales y cintas sellantes", number: 54 },
           { name: "Accesorios y repuestos", number: 55 },
-          { name: "Valvulas", number: 56 },
+          { name: "Válvulas", number: 56 },
           { name: "Riego", number: 57 },
         ];
       }

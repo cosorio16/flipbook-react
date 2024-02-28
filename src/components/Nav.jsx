@@ -11,9 +11,11 @@ function Nav({ goToPage }) {
         <button
           onClick={() => {
             goToPage(3);
-            hideView();
+            hideView();          translate="no"
+
             hideCart();
           }}
+          translate="no"
         >
           ACCEL
         </button>
@@ -23,6 +25,7 @@ function Nav({ goToPage }) {
             hideView();
             hideCart();
           }}
+          translate="no"
         >
           FULLWAT
         </button>
@@ -32,6 +35,7 @@ function Nav({ goToPage }) {
             hideView();
             hideCart();
           }}
+          translate="no"
         >
           MASSO
         </button>
@@ -41,6 +45,7 @@ function Nav({ goToPage }) {
             hideView();
             hideCart();
           }}
+          translate="no"
         >
           ATLANTIS
         </button>

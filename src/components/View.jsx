@@ -17,7 +17,7 @@ function View({ optionProp, tipoSelect }) {
     setOpcionSeleccionada("");
     setUeOfProduct("");
     setCodeOfProduct("");
-    setImageOfProduct("");
+    setImageOfProduct(optionProp[0]?.img || []);
     setCantidad(1);
   }, [optionProp]);
 
@@ -132,17 +132,23 @@ function View({ optionProp, tipoSelect }) {
               </>
             )}
             <div className="nameToolsProduct">
-              <h1>{tipoSelect}</h1>
+              <h1>{tipoSelect.toUpperCase()}</h1>
               {opcionSeleccionada && currentPage < 13 && (
                 <>
-                  <p>Codigo: {codeOfProduct}</p>
-                  <p>UE: {ueOfProduct}</p>
+                  <p>Código: {codeOfProduct}</p>
                   <p>Opcion: {opcionSeleccionada}</p>
+                  {ueOfProduct ? (
+                    <>
+                      <p>UE: {ueOfProduct}</p>
+                    </>
+                  ) : (
+                    <></>
+                  )}
                 </>
               )}
-              {opcionSeleccionada && currentPage > 13 && (
+              {opcionSeleccionada && currentPage > 13 && currentPage < 26 && (
                 <>
-                  <p>Codigo: {codeOfProduct}</p>
+                  <p>Código: {codeOfProduct}</p>
                   <p>Potencia:{parts[0]} </p>
                   <p>Lumenes:{parts[1]} </p>
                   <p>Temperatura: {parts[2]}</p>
@@ -156,7 +162,7 @@ function View({ optionProp, tipoSelect }) {
                     <button
                       className="button_view_option"
                       onClick={handleOpcionChange}
-                      key={opcion.value}
+                      key={opcion.value + index}
                       value={opcion.value}
                     >
                       {opcion.value}

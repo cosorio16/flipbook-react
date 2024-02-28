@@ -45,6 +45,10 @@
   margin: 0 auto;
 }
 
+.nameToolsProduct h1 {
+  font-size: 1.5rem;
+}
+
 .amount_view_container {
   display: flex;
   align-items: center;

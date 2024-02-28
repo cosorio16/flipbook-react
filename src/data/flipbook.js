@@ -2518,7 +2518,7 @@ const catalogo = [
         description: "",
         tipos: [
           {
-            name: "Panel Led Incrustar Redondo Plastico",
+            name: "Panel Led Incrustar Redondo Plástico",
             options: [
               {
                 code: "120002",
@@ -2577,7 +2577,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Panel Led Sobreponer Redondo Plastico",
+            name: "Panel Led Sobreponer Redondo Plástico",
             options: [
               {
                 code: "120011",
@@ -2636,7 +2636,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Panel Led Bala Incrustar Redondo Plastico",
+            name: "Panel Led Bala Incrustar Redondo Plástico",
             options: [
               {
                 code: "108207",
@@ -3320,7 +3320,7 @@ const catalogo = [
               },
               {
                 code: "108117",
-                value: "9W - 720lm - 6500k/b - 60cm - Plastico",
+                value: "9W - 720lm - 6500k/b - 60cm - Plástico",
                 UE: "1/30",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
               },
@@ -3332,7 +3332,7 @@ const catalogo = [
               },
               {
                 code: "108118",
-                value: "18W - 1500lm - 6500k/b - 120cm - Plastico",
+                value: "18W - 1500lm - 6500k/b - 120cm - Plástico",
                 UE: "1/30",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FFULLWAT%2F47000%20tubo%20led%20t8.webp?alt=media&token=be9eb307-88a7-454b-80ac-eb6ccaed4ac1",
               },
@@ -3385,7 +3385,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Luminaria Led Tubo T5 Base Plastica",
+            name: "Luminaria Led Tubo T5 Base Plástica",
             options: [
               {
                 code: "107366",
@@ -3550,7 +3550,7 @@ const catalogo = [
         description: "",
         tipos: [
           {
-            name: "Pintura Todo Proposito",
+            name: "Pintura Todo Propósito",
             options: [
               {
                 code: "71689",
@@ -4856,7 +4856,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Palustre M/Plastico",
+            name: "Palustre M/Plástico",
             options: [
               {
                 code: "48403",
@@ -4932,7 +4932,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Espatula M/Plastico",
+            name: "Espatula M/Plástico",
             options: [
               {
                 code: "48408",
@@ -4995,7 +4995,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Llana Lisa M/Plastico",
+            name: "Llana Lisa M/Plástico",
             options: [
               {
                 code: "49600",
@@ -5023,7 +5023,7 @@ const catalogo = [
             ],
           },
           {
-            name: "Llana Dentada M/Plastico",
+            name: "Llana Dentada M/Plástico",
             options: [
               {
                 code: "48815",
@@ -5309,11 +5309,11 @@ const catalogo = [
             ],
           },
           {
-            name: "Cepillo De Alambre Mango Plastico",
+            name: "Cepillo De Alambre Mango Plástico",
             options: [
               {
                 code: "43328",
-                value: "Cepillo De Alambre Mango Plastico",
+                value: "Cepillo De Alambre Mango Plástico",
                 UE: "1/120",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FMASSO%2F43328%20cepillo%20de%20alambre%20.webp?alt=media&token=b4792439-205c-4d87-acfb-02f73d47557f",
               },
@@ -7447,7 +7447,7 @@ const catalogo = [
             options: [
               {
                 code: "120230",
-                value: '10" - Plastica',
+                value: '10" - Plástica',
                 UE: "1/40",
                 img: "",
               },
@@ -7458,7 +7458,7 @@ const catalogo = [
             options: [
               {
                 code: "99155",
-                value: '8" - Plastica',
+                value: '8" - Plástica',
                 UE: "1/48",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2Fllave%2099155.webp?alt=media&token=d5e08701-7b45-4395-8be1-aa12ee5591e7",
               },
@@ -7481,7 +7481,7 @@ const catalogo = [
             options: [
               {
                 code: "107303",
-                value: "Plastico",
+                value: "Plástico",
                 UE: "1/210",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F107303%20argenta.webp?alt=media&token=4b2fc50e-4793-4014-86a7-aafd03221f97",
               },
@@ -7492,7 +7492,7 @@ const catalogo = [
             options: [
               {
                 code: "107302",
-                value: "Plastico",
+                value: "Plástico",
                 UE: "1/210",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F107302%20imperia.webp?alt=media&token=66357fd5-cb2c-4e9f-be2b-fd8316b6c640",
               },
@@ -7503,7 +7503,7 @@ const catalogo = [
             options: [
               {
                 code: "93567",
-                value: "Plastico",
+                value: "Plástico",
                 UE: "1/60",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F93567%20Pomo%20bari.webp?alt=media&token=6aa3cffb-6b5e-4750-8b64-426de7d31c7a",
               },
@@ -7514,7 +7514,7 @@ const catalogo = [
             options: [
               {
                 code: "93569",
-                value: "Plastico",
+                value: "Plástico",
                 UE: "1/60",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F93569%20Pomo%20vicenza.webp?alt=media&token=b3c1c8d6-29f6-46a7-a86f-6bab5d2bcd31",
               },
@@ -7592,14 +7592,14 @@ const catalogo = [
             options: [
               {
                 code: "53091",
-                value: '3 1/2" - Cuello Plastico',
+                value: '3 1/2" - Cuello Plástico',
                 UE: "1/12",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2Fducha%2053091.webp?alt=media&token=893621e3-842c-4e98-84f1-fa4ee1fc1d42",
               },
             ],
           },
           {
-            name: "Ducha Plastica Cromada",
+            name: "Ducha Plástica Cromada",
             options: [
               {
                 code: "64410",
@@ -7610,22 +7610,22 @@ const catalogo = [
             ],
           },
           {
-            name: "Llave Rossi Triple Cromado Plastico",
+            name: "Llave Rossi Triple Cromado Plástico",
             options: [
               {
                 code: "93578",
-                value: "Plastica",
+                value: "Plástica",
                 UE: "1/72",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2Fllave%2093578.webp?alt=media&token=cba8741a-1dfb-4fc5-b1d5-a0a75f1b182c",
               },
             ],
           },
           {
-            name: "Llave Ferrara Triple Cromado Plastico",
+            name: "Llave Ferrara Triple Cromado Plástico",
             options: [
               {
                 code: "93576",
-                value: "Plastica",
+                value: "Plástica",
                 UE: "1/72",
                 img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F93576%20ferrara.webp?alt=media&token=5366fcd3-1d07-4a86-8323-b5caf1270c50",
               },
@@ -7825,17 +7825,150 @@ const catalogo = [
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_053.webp?alt=media&token=3e5b7184-3f38-40ec-9df8-e794f887625c",
-    products: [],
+    products: [
+      {
+        name: "Lavaplatos Submontar",
+        description: "",
+        tipos: [
+          {
+            name: "Lavaplatos Atlantis Acero Inoxidable",
+            options: [
+              {
+                code: "94409",
+                value: "145MM - 80x43",
+                UE: "1/170",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F94409%20Lav%2082x43.webp?alt=media&token=3bbad54f-8094-4627-9527-2cfc07ba8306",
+              },
+            ],
+          },
+          {
+            name: "Lavaplatos Atlantis Acero Inoxidable",
+            options: [
+              {
+                code: "94408",
+                value: "150MM - 55x43",
+                UE: "1/170",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F94408%20Lavap%20submontar.webp?alt=media&token=bbb79595-a1c4-4baa-9971-c26cdba40b91",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_054.webp?alt=media&token=343ad217-db91-4468-876d-5f8a37c26ec8",
-    products: [],
+    products: [
+      {
+        name: "Combos",
+        description: "",
+        tipos: [
+          {
+            name: "Combo Lavaplatos 100x50 IZQ",
+            options: [
+              {
+                code: "44383",
+                value:
+                  "Combo Lavaplatos 100x50 IZQ + Llave Bari + Acop + Canast + Sifonrp",
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Lavaplatos 100x50 Der",
+            options: [
+              {
+                code: "44384",
+                value:
+                  "Combo Lavaplatos 100x50 Der + Llave Bari + Acop + Canast + Sifon RP",
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Lavaplatos 53x43 1H",
+            options: [
+              {
+                code: "47282",
+                value:
+                  "Combo Lavaplatos 53x43 1H + Llave Bari + 1Acop + Canast + Sifo",
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Lavaplatos 60x40",
+            options: [
+              {
+                code: "44821",
+                value: "COMBOLAVAP60X40+ MONOCONTROL PARED+CANAST+SIFON RP",
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Lavaplatos 62x48 3H",
+            options: [
+              {
+                code: "44820",
+                value:
+                  'Combo Lavaplatos 62x48 + Mezcl 8" Crom + 2Acop + Canast + Sifon RP',
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Lavaplatos 38x38 1H",
+            options: [
+              {
+                code: "108724",
+                value:
+                  "Combo Lavaplatos 38x38 1H + llave Bari + Acop + Canast + SifonRP",
+                UE: "1/1",
+                img: "",
+              },
+            ],
+          },
+          {
+            name: "Combo Mezclador",
+            options: [
+              {
+                code: "44435",
+                value: 'COMBO MEZCL 8" CROM+2ACOP+CANAST+SIFON RP',
+                UE: "1/1",
+                img: "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FATLANTIS%2F44383-44384-44435-44821-44820-44161-47282%20Combo%20100x50%20iz.webp?alt=media&token=5f4cd636-c81a-432e-a782-89646029fa4e",
+              },
+            ],
+          },
+          {
+            name: "Combo Llave",
+            options: [
+              {
+                code: "44436",
+                value: "COMBO LLAVE BARI+ACOP+CANAST+SIF\u00d3NRP",
+                UE: "1/1",
+                img: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/catalogo-ae4b0.appspot.com/o/images%2FPAGINAS%2Fpagina_055.webp?alt=media&token=d948bb8b-31e6-46fa-b894-ffc4814fe44a",
-    products: [],
+    products: [{
+      name: 'LAVES TERMINALES Y CINTA SELLANTE',
+      description: '',
+      tipos: []
+    }],
   },
   {
     image:
