@@ -1,6 +1,8 @@
 .view_container_product {
   width: calc(100% - 490px);
-  height: 80%;
+  min-width: fit-content;
+  min-height: auto;
+  max-height: 100vh;
   position: absolute;
   top: calc(5%);
   left: calc(50% - 350px);
@@ -17,7 +19,7 @@
   height: 100%;
   padding: 5px;
   gap: 15px;
-  align-items: center;
+  align-items: center;f
 }
 
 .image_of_product_view {
@@ -47,6 +49,7 @@
 
 .nameToolsProduct h1 {
   font-size: 1.5rem;
+  width: 300px;
 }
 
 .amount_view_container {

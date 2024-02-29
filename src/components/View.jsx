@@ -133,29 +133,29 @@ function View({ optionProp, tipoSelect }) {
             )}
             <div className="nameToolsProduct">
               <h1>{tipoSelect.toUpperCase()}</h1>
-              {opcionSeleccionada && currentPage < 13 && (
+
+              {opcionSeleccionada && (
                 <>
-                  <p>Código: {codeOfProduct}</p>
-                  <p>Opcion: {opcionSeleccionada}</p>
-                  {ueOfProduct ? (
+                  {(currentPage < 13 || currentPage > 26) && (
                     <>
+                      <p>Código: {codeOfProduct}</p>
+                      <p>Opción: {opcionSeleccionada}</p>
+                      {ueOfProduct && <p>UE: {ueOfProduct}</p>}
+                    </>
+                  )}
+                  {currentPage > 13 && currentPage < 26 && (
+                    <>
+                      <p>Código: {codeOfProduct}</p>
+                      <p>Potencia:{parts[0]} </p>
+                      <p>Lumenes:{parts[1]} </p>
+                      <p>Temperatura: {parts[2]}</p>
+                      <p>Medida:{parts[3]} </p>
                       <p>UE: {ueOfProduct}</p>
                     </>
-                  ) : (
-                    <></>
                   )}
                 </>
               )}
-              {opcionSeleccionada && currentPage > 13 && currentPage < 26 && (
-                <>
-                  <p>Código: {codeOfProduct}</p>
-                  <p>Potencia:{parts[0]} </p>
-                  <p>Lumenes:{parts[1]} </p>
-                  <p>Temperatura: {parts[2]}</p>
-                  <p>Medida:{parts[3]} </p>
-                  <p>UE: {ueOfProduct}</p>
-                </>
-              )}
+
               {optionProp.length > 1 && optionProp.length < 4 && (
                 <>
                   {optionProp.map((opcion, index) => (
@@ -178,7 +178,7 @@ function View({ optionProp, tipoSelect }) {
                     id="selectOption"
                     onChange={handleOpcionChange}
                   >
-                    <option value="">Seleccione una opcion</option>
+                    <option value="">Seleccione una opción</option>
                     {optionProp.map((opcion, index) => (
                       <>
                         <option value={opcion.value} key={index}>

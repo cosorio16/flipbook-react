@@ -32,33 +32,8 @@ function App() {
     }
   }, [pageImg]);
 
-  useEffect(() => {
-    const preloadImages = async () => {
-      const storedImages =
-        JSON.parse(localStorage.getItem("cachedImages")) || {};
 
-      await Promise.all(
-        catalogo.map(async (page) => {
-          const imageUrl = page.image;
-          if (!storedImages[imageUrl]) {
-            try {
-              const response = await fetch(imageUrl);
-              const blob = await response.blob();
-              const objectURL = URL.createObjectURL(blob);
-              storedImages[imageUrl] = objectURL;
-              console.log(`Imagen precargada: ${imageUrl}`);
-            } catch (error) {
-              console.error(`Error al precargar imagen: ${imageUrl}`, error);
-            }
-          }
-        })
-      );
 
-      localStorage.setItem("cachedImages", JSON.stringify(storedImages));
-    };
-
-    preloadImages();
-  }, []);
 
   useEffect(() => {
     const updatePage = () => {

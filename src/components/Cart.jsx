@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Cart.css";
 import { storeGlobal } from "../store/store";
 
@@ -16,7 +16,13 @@ function Cart() {
     const item = carrito[index];
     deleteToCart(item);
   };
-  
+
+  const [carritoLocal, setCarritoLocal] = useState([]);
+
+  useEffect(() => {
+    console.log(JSON.parse(localStorage.getItem("carrito")));
+  }, []);
+
   return (
     <>
       <div className="cart_status">

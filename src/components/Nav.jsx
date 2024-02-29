@@ -11,8 +11,7 @@ function Nav({ goToPage }) {
         <button
           onClick={() => {
             goToPage(3);
-            hideView();          translate="no"
-
+            hideView();         
             hideCart();
           }}
           translate="no"
