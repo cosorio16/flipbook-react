@@ -30,7 +30,7 @@ export const storeGlobal = create((set) => ({
   hideView: () => set((state) => ({ viewStatus: false })),
   handleCart: () => set((state) => ({ cartStatus: !state.cartStatus })),
   hideCart: () => set((state) => ({ cartStatus: false })),
-  currentPage: 0,
+  currentPage: 8,
   nextPageZustand: () =>
     set((state) => ({ currentPage: state.currentPage + 1 })),
   prevPageZustand: () =>

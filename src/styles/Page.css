@@ -29,10 +29,13 @@
 
 .page .botones_productos_page button {
   opacity: 0.4;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1),
+    scale 0.32s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .page .botones_productos_page button:hover {
   opacity: 1;
+  scale: 1.5;
 }
 
 .page_5 .botones_productos_page {
@@ -348,4 +351,336 @@
   align-items: center;
   padding-top: 40%;
   padding-bottom: 10%;
+}
+
+.page_28 .botones_productos_page {
+  justify-items: end;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.page_29 .botones_productos_page {
+  grid-template-areas:
+    "button291 button292"
+    "button293 ."
+    "button294 .";
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.page_29 .botones_productos_page button:nth-child(1) {
+  grid-area: button291;
+}
+.page_29 .botones_productos_page button:nth-child(2) {
+  grid-area: button292;
+}
+.page_29 .botones_productos_page button:nth-child(3) {
+  grid-area: button293;
+}
+.page_29 .botones_productos_page button:nth-child(4) {
+  grid-area: button294;
+}
+
+.page_30 .botones_productos_page {
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+
+.page_31 .botones_productos_page {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 15%;
+}
+
+.page_32 .botones_productos_page {
+  grid-template-areas:
+    "button321 . button322"
+    "button323 button324 button325"
+    "button326 button327 button328"
+    "button329 button3210 button3211"
+    "button3212 . button3213";
+
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.page_32 .botones_productos_page button:nth-child(1) {
+  grid-area: button321;
+}
+.page_32 .botones_productos_page button:nth-child(2) {
+  grid-area: button322;
+}
+.page_32 .botones_productos_page button:nth-child(3) {
+  grid-area: button323;
+}
+.page_32 .botones_productos_page button:nth-child(4) {
+  grid-area: button324;
+}
+.page_32 .botones_productos_page button:nth-child(5) {
+  grid-area: button325;
+}
+.page_32 .botones_productos_page button:nth-child(6) {
+  grid-area: button326;
+}
+.page_32 .botones_productos_page button:nth-child(7) {
+  grid-area: button327;
+}
+.page_32 .botones_productos_page button:nth-child(8) {
+  grid-area: button328;
+}
+.page_32 .botones_productos_page button:nth-child(9) {
+  grid-area: button329;
+}
+.page_32 .botones_productos_page button:nth-child(10) {
+  grid-area: button3210;
+}
+.page_32 .botones_productos_page button:nth-child(11) {
+  grid-area: button3211;
+}
+.page_32 .botones_productos_page button:nth-child(12) {
+  grid-area: button3212;
+  justify-self: end;
+}
+.page_32 .botones_productos_page button:nth-child(13) {
+  grid-area: button3213;
+  justify-self: flex-start;
+}
+
+.page_33 .botones_productos_page {
+  grid-template-areas:
+    "button331 button332 button333 button334"
+    ". button335 button336 button337"
+    ". button338 button339 ."
+    ". button3310 button3311 ."
+    ". button3312 button3313 button3314";
+
+  align-items: center;
+  padding-bottom: 12%;
+}
+
+.page_33 .botones_productos_page button:nth-child(1) {
+  grid-area: button331;
+}
+.page_33 .botones_productos_page button:nth-child(2) {
+  grid-area: button332;
+}
+.page_33 .botones_productos_page button:nth-child(3) {
+  grid-area: button333;
+}
+.page_33 .botones_productos_page button:nth-child(4) {
+  grid-area: button334;
+}
+.page_33 .botones_productos_page button:nth-child(5) {
+  grid-area: button335;
+}
+.page_33 .botones_productos_page button:nth-child(6) {
+  grid-area: button336;
+}
+.page_33 .botones_productos_page button:nth-child(7) {
+  grid-area: button337;
+}
+.page_33 .botones_productos_page button:nth-child(8) {
+  grid-area: button338;
+}
+.page_33 .botones_productos_page button:nth-child(9) {
+  grid-area: button339;
+}
+.page_33 .botones_productos_page button:nth-child(10) {
+  grid-area: button3310;
+}
+.page_33 .botones_productos_page button:nth-child(11) {
+  grid-area: button3311;
+}
+.page_33 .botones_productos_page button:nth-child(12) {
+  grid-area: button3312;
+}
+.page_33 .botones_productos_page button:nth-child(13) {
+  grid-area: button3313;
+}
+.page_33 .botones_productos_page button:nth-child(14) {
+  grid-area: button3314;
+}
+.page_33 .botones_productos_page button:nth-child(15) {
+  grid-area: button3315;
+}
+
+.page_34 .botones_productos_page {
+  grid-template-areas:
+    ". button341 button342"
+    "button343 button344 button345"
+    "button346 button347 button348"
+    ". button349 button3410";
+
+  align-items: center;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  justify-items: center;
+}
+
+.page_34 .botones_productos_page button:nth-child(1) {
+  grid-area: button341;
+  justify-self: start;
+}
+.page_34 .botones_productos_page button:nth-child(2) {
+  grid-area: button342;
+  justify-self: start;
+}
+.page_34 .botones_productos_page button:nth-child(3) {
+  grid-area: button343;
+}
+.page_34 .botones_productos_page button:nth-child(4) {
+  grid-area: button344;
+}
+.page_34 .botones_productos_page button:nth-child(5) {
+  grid-area: button345;
+}
+.page_34 .botones_productos_page button:nth-child(6) {
+  grid-area: button346;
+}
+.page_34 .botones_productos_page button:nth-child(7) {
+  grid-area: button347;
+}
+.page_34 .botones_productos_page button:nth-child(8) {
+  grid-area: button348;
+}
+.page_34 .botones_productos_page button:nth-child(9) {
+  grid-area: button349;
+  justify-self: start;
+}
+.page_34 .botones_productos_page button:nth-child(10) {
+  grid-area: button3410;
+  justify-self: start;
+}
+
+.page_35 .botones_productos_page {
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding-top: 45%;
+  padding-bottom: 12%;
+}
+
+.page_35 .botones_productos_page button:last-child {
+  margin-left: 200%;
+}
+
+.page_36 .botones_productos_page {
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 70%;
+  justify-items: center;
+  padding-bottom: 10%;
+}
+
+.page_37 .botones_productos_page {
+  grid-template-areas:
+    "button371 . "
+    "button372 button373";
+  justify-items: center;
+  padding-top: 30%;
+}
+
+.page_37 .botones_productos_page button:nth-child(1) {
+  grid-area: button371;
+}
+
+.page_37 .botones_productos_page button:nth-child(2) {
+  grid-area: button372;
+}
+
+.page_37 .botones_productos_page button:nth-child(3) {
+  grid-area: button373;
+}
+
+.page_38 .botones_productos_page {
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-top: 50%;
+}
+
+.page_39 .botones_productos_page {
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-top: 50%;
+}
+
+.page_40 .botones_productos_page {
+  grid-template-columns: 1fr 1fr;
+  padding-top: 70%;
+  justify-items: center;
+}
+
+.page_41 .botones_productos_page {
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60%;
+  justify-items: center;
+}
+
+.page_42 .botones_productos_page {
+  align-items: center;
+  padding-bottom: 25%;
+}
+
+.page_43 .botones_productos_page {
+  grid-template-areas:
+    "btn431 btn432 btn433 ."
+    "btn434 btn435 btn436 btn437"
+    ". . . ."
+    ". . . btn438"
+    ". . btn439 btn4310";
+  justify-items: center;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  align-items: center;
+}
+
+.page_43 .botones_productos_page button:nth-child(1) {
+  grid-area: btn431;
+}
+
+.page_43 .botones_productos_page button:nth-child(2) {
+  grid-area: btn432;
+}
+
+.page_43 .botones_productos_page button:nth-child(3) {
+  grid-area: btn433;
+}
+
+.page_43 .botones_productos_page button:nth-child(4) {
+  grid-area: btn434;
+}
+
+.page_43 .botones_productos_page button:nth-child(5) {
+  grid-area: btn435;
+}
+
+.page_43 .botones_productos_page button:nth-child(6) {
+  grid-area: btn436;
+}
+
+.page_43 .botones_productos_page button:nth-child(7) {
+  grid-area: btn437;
+}
+
+.page_43 .botones_productos_page button:nth-child(8) {
+  grid-area: btn438;
+}
+
+.page_43 .botones_productos_page button:nth-child(9) {
+  grid-area: btn439;
+}
+
+.page_43 .botones_productos_page button:nth-child(10) {
+  grid-area: btn4310;
+}
+
+@media screen and (max-width: 450px) {
+  .page {
+    left: calc(50% - 206px);
+  }
 }

@@ -19,7 +19,7 @@
   height: 100%;
   padding: 5px;
   gap: 15px;
-  align-items: center;f
+  align-items: center;
 }
 
 .image_of_product_view {
@@ -117,4 +117,15 @@ select {
   border-radius: 10px;
   border: none;
   width: 200px;
+}
+
+@media screen and (max-width: 850px) {
+  .view_container_product {
+    left: calc(50% - 190px);
+  }
+
+  .imgProduct_nameTools {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -129,3 +129,9 @@
   max-height: 250px;
   object-fit: contain;
 }
+
+@media screen and (max-width: 700px) {
+  .cart_products_container {
+    width: 100vw;
+  }
+}
